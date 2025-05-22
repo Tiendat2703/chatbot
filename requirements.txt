@@ -1,0 +1,16 @@
+gunicorn
+openai
+flask
+flask_sqlalchemy
+flask_bcrypt
+flask_login
+google.generativeai
+faiss-cpu
+langchain_google_genai
+langchain_community
+python-Levenshtein
+fuzzywuzzy
+pandas
+numpy
+openpyxl
+plotly

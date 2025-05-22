@@ -1,0 +1,85 @@
+<!-- Chatbot floating icon + popup -->
+<style>
+    #floating-chatbot {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
+  
+    #chat-popup {
+      display: none;
+      position: absolute;
+      bottom: 60px;
+      right: 0;
+      background-color: #212529;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      width: 300px;
+    }
+  
+    #chat-popup input {
+      width: 100%;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      background-color: #343a40;
+      color: #fff;
+    }
+  
+    #chat-popup button {
+      width: 100%;
+      background-color: #0d6efd;
+      border: none;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    #chat-icon {
+      width: 50px;
+      height: 50px;
+      background-color: #0d6efd;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  
+    #chat-icon img {
+      width: 28px;
+      height: 28px;
+    }
+  </style>
+  
+  <div id="floating-chatbot">
+    <div id="chat-popup">
+      <input type="text" id="chat-question" placeholder="Hỏi chatbot điều gì đó...">
+      <button onclick="sendToChatbot()">Gửi câu hỏi</button>
+    </div>
+    <div id="chat-icon" onclick="togglePopup()">
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712035.png" alt="Bot" />
+    </div>
+  </div>
+  
+  <script>
+    function togglePopup() {
+      const popup = document.getElementById("chat-popup");
+      popup.style.display = popup.style.display === "block" ? "none" : "block";
+    }
+  
+    function sendToChatbot() {
+      const question = document.getElementById("chat-question").value;
+      if (question.trim() !== "") {
+        // Lưu vào localStorage
+        localStorage.setItem("chatbot_question", question);
+        // Redirect
+        window.location.href = "/chatbot?initial_question=" + encodeURIComponent(question);
+      }
+    }
+  </script>
+  

@@ -1,0 +1,438 @@
+{
+    "ISTJ": [
+      {
+        "name": "Tài chính",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5635",
+        "description": "Quản lý nguồn vốn, đầu tư và đánh giá rủi ro tài chính."
+      },
+      {
+        "name": "Kế toán",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5634",
+        "description": "Ghi chép và phân tích thông tin tài chính của doanh nghiệp."
+      },
+      {
+        "name": "Quản trị kinh doanh",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5621",
+        "description": "Điều hành doanh nghiệp, lập kế hoạch và quản lý nguồn lực."
+      },
+      {
+        "name": "Kỹ thuật công nghiệp",
+        "link": "https://dut.udn.vn/KhoaCKGT/Thongbao/id/3919?fbclid=IwY2xjawJxcq5leHRuA2FlbQIxMAABHoC5Knmg9E-7gcZQyZphTfcaGI7_tAdYpUV7X4qTY953uXn3rJP2M-7mecnz_aem_1iY86VoSxG8LRpigTxBRxQ",
+        "description": "Tối ưu hóa hệ thống sản xuất và quy trình kỹ thuật."
+      },
+      {
+        "name": "Khoa học máy tính",
+        "link": "https://tuyensinh.vnuk.udn.vn/cac-truong-dao-tao-nganh-khoa-hoc-may-tinh-tot-nhat-tai-da-nang/",
+        "description": "Nghiên cứu thuật toán, phần mềm và trí tuệ nhân tạo."
+      }
+    ],
+    "ISFJ": [
+      {
+        "name": "Y khoa",
+        "link": "https://smp.udn.vn/gioi-thieu-nganh-y-khoa",
+        "description": "Chẩn đoán, điều trị và nâng cao sức khỏe cộng đồng."
+      },
+      {
+        "name": "Giáo dục mầm non",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-giao-duc-mam-non/",
+        "description": "Đào tạo, chăm sóc và phát triển trẻ trong giai đoạn đầu đời."
+      },
+      {
+        "name": "Dược học",
+        "link": "https://smp.udn.vn/gioi-thieu-nganh-duoc-hoc",
+        "description": "Nghiên cứu, bào chế và cung cấp thuốc cho điều trị bệnh."
+      },
+      {
+        "name": "Tâm lý học",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-tam-ly-hoc/",
+        "description": "Phân tích hành vi, cảm xúc và trị liệu tâm lý."
+      },
+      {
+        "name": "Kỹ thuật y sinh",
+        "link": "https://smp.udn.vn/gioi-thieu-nganh-xet-nghiem",
+        "description": "Ứng dụng kỹ thuật vào y tế và chăm sóc sức khỏe."
+      }
+    ],
+    "INFJ": [
+      {
+        "name": "Tâm lý học",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-tam-ly-hoc/",
+        "description": "Phân tích hành vi, cảm xúc và trị liệu tâm lý."
+      },
+      {
+        "name": "Xã hội học",
+        "link": "https://hcmussh.edu.vn/tin-tuc/nganh-xa-hoi-hoc",
+        "description": "Phân tích cấu trúc và vận hành của xã hội."
+      },
+      {
+        "name": "Luật",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5714",
+        "description": "Nghiên cứu hệ thống pháp luật và tư pháp."
+      },
+      {
+        "name": "Ngôn ngữ học",
+        "link": "https://hcmussh.edu.vn/tin-tuc/nganh-ngon-ngu-hoc",
+        "description": "Phân tích cấu trúc, lịch sử và ứng dụng của ngôn ngữ."
+      },
+      {
+        "name": "Giáo dục học",
+        "link": "https://hcmussh.edu.vn/tin-tuc/nganh-giao-duc-hoc",
+        "description": "Nghiên cứu lý thuyết và phương pháp giảng dạy hiệu quả."
+      }
+    ],
+    "INTJ": [
+      {
+        "name": "Khoa học dữ liệu",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5643",
+        "description": "Phân tích dữ liệu để hỗ trợ ra quyết định và chiến lược."
+      },
+      {
+        "name": "Kỹ thuật phần mềm",
+        "link": "https://vku.udn.vn/nganh-dao-tao/nganh-ky-thuat-phan-mem/",
+        "description": "Thiết kế, phát triển và bảo trì phần mềm ứng dụng."
+      },
+      {
+        "name": "Kinh tế học",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5614",
+        "description": "Phân tích hành vi kinh tế và hoạt động thị trường."
+      },
+      {
+        "name": "Quản trị dự án",
+        "link": "https://portal.vku.udn.vn/dao-tao/quan-tri-du-an-cntt/gioi-thieu-chuyen-nganh-quan-tri-du-an-cong-nghe-thong-tin.html",
+        "description": "Lập kế hoạch, theo dõi và điều phối các dự án hiệu quả."
+      },
+      {
+        "name": "Toán học",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/su-pham-toan-hoc/",
+        "description": "Nghiên cứu lý thuyết và ứng dụng các khái niệm toán học."
+      }
+    ],
+    "ISTP": [
+      {
+        "name": "Cơ khí",
+        "link": "https://tuyensinh.ute.udn.vn/ChuyenMuc/Gioi-Thieu-Nganh-Cong-Nghe-Ky-Thuat-Co-Khi_58.html",
+        "description": "Thiết kế, chế tạo và vận hành máy móc, thiết bị kỹ thuật."
+      },
+      {
+        "name": "Công nghệ kỹ thuật ô tô",
+        "link": "https://daotao.ute.udn.vn/curriculums.asp?lvb=504210",
+        "description": "Vận hành, bảo trì và cải tiến hệ thống ô tô hiện đại."
+      },
+      {
+        "name": "Công nghệ thông tin",
+        "link": "https://daotao.ute.udn.vn/curriculums.asp?lvb=50532L",
+        "description": "Lập trình, an toàn mạng và phát triển phần mềm, hệ thống."
+      },
+      {
+        "name": "Điện tử viễn thông",
+        "link": "https://tuyensinh.ute.udn.vn/ChuyenMuc/Nganh-Cong-nghe-Ky-thuat-Dien-tuer--Vien-thong_61.html",
+        "description": "Truyền dẫn và xử lý tín hiệu trong mạng viễn thông."
+      },
+      {
+        "name": "Hàng không",
+        "link": "https://timviec365.vn/blog/nganh-hang-khong-thi-khoi-nao-new9979.html",
+        "description": "Khai thác, quản lý và kỹ thuật trong lĩnh vực hàng không."
+      }
+    ],
+    "ISFP": [
+      {
+        "name": "Thiết kế nội thất",
+        "link": "https://duytan.edu.vn/tuyen-sinh/Page/EducationDetail.aspx?id=205",
+        "description": "Tạo dựng không gian sống và làm việc hài hòa, thẩm mỹ."
+      },
+      {
+        "name": "Thiết kế đồ họa",
+        "link": "https://diemthi.tuyensinh247.com/nganh-dao-tao/thiet-ke-do-hoa-137.html",
+        "description": "Biến ý tưởng thành hình ảnh trực quan qua công cụ số."
+      },
+      {
+        "name": "Điều dưỡng",
+        "link": "https://smp.udn.vn/gioi-thieu-nganh-dieu-duong",
+        "description": "Chăm sóc bệnh nhân và hỗ trợ điều trị trong y tế."
+      },
+      {
+        "name": "Giáo dục đặc biệt",
+        "link": "https://tuhoc.com.vn/nganh-giao-duc-dac-biet/",
+        "description": "Hỗ trợ trẻ em có nhu cầu đặc biệt phát triển toàn diện."
+      },
+      {
+        "name": "Thẩm mỹ học",
+        "link": "https://www.hutech.edu.vn/tuyensinh/tin-huong-nghiep/14613830-nganh-cong-nghe-tham-my-xet-tuyen-cac-phuong-thuc-nao",
+        "description": "Chăm sóc sắc đẹp và điều trị thẩm mỹ chuyên sâu."
+      }
+    ],
+    "INFP": [
+      {
+        "name": "Văn học",
+        "link": "https://hcmussh.edu.vn/tin-tuc/nganh-van-hoc",
+        "description": "Khám phá giá trị nghệ thuật và nhân văn qua tác phẩm văn chương."
+      },
+      {
+        "name": "Ngôn ngữ học",
+        "link": "https://hcmussh.edu.vn/tin-tuc/nganh-ngon-ngu-hoc",
+        "description": "Phân tích cấu trúc, lịch sử và ứng dụng của ngôn ngữ."
+      },
+      {
+        "name": "Xã hội học",
+        "link": "https://hcmussh.edu.vn/tin-tuc/nganh-xa-hoi-hoc",
+        "description": "Phân tích cấu trúc và vận hành của xã hội."
+      },
+      {
+        "name": "Tâm lý học",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-tam-ly-hoc/",
+        "description": "Phân tích hành vi, cảm xúc và trị liệu tâm lý."
+      },
+      {
+        "name": "Thiết kế truyền thông",
+        "link": "https://www.hutech.edu.vn/tuyensinh/tin-tuc/tin-huong-nghiep/14590075-nganh-truyen-thong-da-phuong-tien-xet-tuyen-cac-phuong-thuc-nao",
+        "description": "Sáng tạo nội dung và hình ảnh cho truyền thông số."
+      }
+    ],
+    "INTP": [
+      {
+        "name": "Khoa học máy tính",
+        "link": "https://tuyensinh.vnuk.udn.vn/cac-truong-dao-tao-nganh-khoa-hoc-may-tinh-tot-nhat-tai-da-nang",
+        "description": "Nghiên cứu thuật toán, phần mềm và trí tuệ nhân tạo."
+      },
+      {
+        "name": "Toán học",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/su-pham-toan-hoc/",
+        "description": "Nghiên cứu lý thuyết và ứng dụng các khái niệm toán học."
+      },
+      {
+        "name": "Vật lý",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-su-pham-vat-ly/",
+        "description": "Nghiên cứu các hiện tượng tự nhiên và quy luật vật lý."
+      },
+      {
+        "name": "Kỹ thuật điện tử",
+        "link": "https://www.hutech.edu.vn/tuyensinh/tin-tuc/tin-huong-nghiep/14589948-de-xet-tuyen-nganh-ky-thuat-dien-ky-thuat-dien-dien-tu-can-hoc-tot-mon-nao",
+        "description": "Thiết kế và vận hành hệ thống điện tử hiện đại."
+      },
+      {
+        "name": "Triết học",
+        "link": "https://tuyensinh.hcmussh.edu.vn/nganh-triet-hoc",
+        "description": "Phân tích tư tưởng, tri thức và bản chất của thế giới."
+      }
+    ],
+    "ESTP": [
+      {
+        "name": "Quản trị kinh doanh",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5621",
+        "description": "Điều hành doanh nghiệp, lập kế hoạch và quản lý nguồn lực."
+      },
+      {
+        "name": "Marketing",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5626",
+        "description": "Xây dựng thương hiệu, quảng bá và tiếp cận thị trường."
+      },
+      {
+        "name": "Giáo dục thể chất",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-giao-duc-the-chat/",
+        "description": "Rèn luyện thể lực và hướng dẫn hoạt động thể thao."
+      },
+      {
+        "name": "Truyền thông",
+        "link": "https://www.hutech.edu.vn/tuyensinh/tin-tuc/tin-huong-nghiep/14590075-nganh-truyen-thong-da-phuong-tien-xet-tuyen-cac-phuong-thuc-nao",
+        "description": "Tạo và quản lý nội dung truyền thông đại chúng."
+      },
+      {
+        "name": "Logistics",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5623",
+        "description": "Quản lý chuỗi cung ứng, vận chuyển và phân phối hàng hóa."
+      }
+    ],
+    "ESFP": [
+      {
+        "name": "Quản trị dịch vụ du lịch & lữ hành",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5647",
+        "description": "Tổ chức và quản lý hoạt động du lịch, lữ hành."
+      },
+      {
+        "name": "Sân khấu điện ảnh",
+        "link": "https://skda.edu.vn/category/tin-tuyen-sinh/",
+        "description": "Đào tạo kỹ năng diễn xuất và sản xuất phim ảnh."
+      },
+      {
+        "name": "Tổ chức sự kiện",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5648",
+        "description": "Lên kế hoạch và triển khai các chương trình, sự kiện."
+      },
+      {
+        "name": "Quan hệ công chúng",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-quan-he-cong-chung/",
+        "description": "Xây dựng và duy trì hình ảnh tích cực cho tổ chức."
+      },
+      {
+        "name": "Giáo dục thể chất",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-giao-duc-the-chat/",
+        "description": "Rèn luyện thể lực và hướng dẫn hoạt động thể thao."
+      }
+    ],
+    "ENFP": [
+      {
+        "name": "Truyền thông đa phương tiện",
+        "link": "https://www.hutech.edu.vn/tuyensinh/tin-tuc/tin-huong-nghiep/14590075-nganh-truyen-thong-da-phuong-tien-xet-tuyen-cac-phuong-thuc-nao",
+        "description": "Kết hợp hình ảnh, âm thanh và công nghệ để truyền tải thông điệp."
+      },
+      {
+        "name": "Quan hệ quốc tế",
+        "link": "https://hcmussh.edu.vn/tin-tuc/nganh-quan-he-quoc-te",
+        "description": "Phân tích và xử lý các vấn đề toàn cầu và ngoại giao."
+      },
+      {
+        "name": "Tâm lý học",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-tam-ly-hoc/",
+        "description": "Phân tích hành vi, cảm xúc và trị liệu tâm lý."
+      },
+      {
+        "name": "Giáo dục học",
+        "link": "https://hcmussh.edu.vn/tin-tuc/nganh-giao-duc-hoc",
+        "description": "Nghiên cứu lý thuyết và phương pháp giảng dạy hiệu quả."
+      },
+      {
+        "name": "Công tác xã hội",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-cong-tac-xa-hoi/",
+        "description": "Hỗ trợ cá nhân, cộng đồng cải thiện chất lượng cuộc sống."
+      }
+    ],
+    "ENTP": [
+      {
+        "name": "Kinh doanh quốc tế",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5837",
+        "description": "Quản lý hoạt động thương mại và đầu tư xuyên quốc gia."
+      },
+      {
+        "name": "Công nghệ thông tin",
+        "link": "https://daotao.ute.udn.vn/curriculums.asp?lvb=50532L",
+        "description": "Lập trình, an toàn mạng và phát triển phần mềm, hệ thống."
+      },
+      {
+        "name": "Khởi nghiệp",
+        "link": "https://tuyensinh.ueh.edu.vn/bai-viet/quan-tri-khoi-nghiep-dai-hoc-chinh-quy-chuong-trinh-chuan/",
+        "description": "Phát triển ý tưởng và kỹ năng để xây dựng doanh nghiệp mới."
+      },
+      {
+        "name": "Truyền thông số",
+        "link": "https://tuyensinh.ueh.edu.vn/bai-viet/cu-nhan-dai-hoc-chinh-quy-chuong-trinh-truyen-thong-so-va-thiet-ke-da-phuong-tien-chuong-trinh-chuan/",
+        "description": "Ứng dụng công nghệ vào nội dung truyền thông hiện đại."
+      },
+      {
+        "name": "Công nghệ kỹ thuật số",
+        "link": "https://tuyensinh.ueh.edu.vn/bai-viet/cong-nghe-va-doi-moi-sang-tao-dai-hoc-chinh-quy-chuong-trinh-chuan/",
+        "description": "Phát triển, ứng dụng công nghệ số trong truyền thông, thiết kế và kinh doanh."
+      }
+    ],
+    "ESTJ": [
+      {
+        "name": "Luật",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5714",
+        "description": "Nghiên cứu hệ thống pháp luật và tư pháp."
+      },
+      {
+        "name": "Quản lý nhà nước",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5613",
+        "description": "Vận hành và cải tiến hoạt động của cơ quan công quyền."
+      },
+      {
+        "name": "Kinh tế",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5614",
+        "description": "Nghiên cứu các hoạt động sản xuất, phân phối và tiêu dùng."
+      },
+      {
+        "name": "Tài chính ngân hàng",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5635",
+        "description": "Hoạt động tài chính và dịch vụ ngân hàng chuyên sâu."
+      },
+      {
+        "name": "Quản lý công nghiệp",
+        "link": "https://tvts.udn.vn/Nganh/nhom/DDK/KTe/Quan_ly_cong_nghiep2019.2.2019m02d023_9_35_57",
+        "description": "Tổ chức và giám sát hoạt động sản xuất công nghiệp."
+      }
+    ],
+    "ESFJ": [
+      {
+        "name": "Sư phạm",
+        "link": "https://tuyensinhso.vn/school/dai-hoc-su-pham-dai-hoc-da-nang.html",
+        "description": "Đào tạo giáo viên và phát triển kỹ năng giảng dạy."
+      },
+      {
+        "name": "Điều dưỡng",
+        "link": "https://smp.udn.vn/gioi-thieu-nganh-dieu-duong",
+        "description": "Chăm sóc bệnh nhân và hỗ trợ điều trị trong y tế."
+      },
+      {
+        "name": "Quản lý giáo dục",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-quan-ly-giao-duc/",
+        "description": "Lãnh đạo và quản lý hệ thống, chính sách giáo dục."
+      },
+      {
+        "name": "Quản trị nhân sự",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5639",
+        "description": "Tuyển dụng, đào tạo và phát triển nhân sự trong tổ chức."
+      },
+      {
+        "name": "Công tác xã hội",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-cong-tac-xa-hoi/",
+        "description": "Hỗ trợ cá nhân, cộng đồng cải thiện chất lượng cuộc sống."
+      }
+    ],
+    "ENFJ": [
+      {
+        "name": "Giáo dục học",
+        "link": "https://hcmussh.edu.vn/tin-tuc/nganh-giao-duc-hoc",
+        "description": "Nghiên cứu lý thuyết và phương pháp giảng dạy hiệu quả."
+      },
+      {
+        "name": "Truyền thông",
+        "link": "https://www.hutech.edu.vn/tuyensinh/tin-tuc/tin-huong-nghiep/14590075-nganh-truyen-thong-da-phuong-tien-xet-tuyen-cac-phuong-thuc-nao",
+        "description": "Tạo và quản lý nội dung truyền thông đại chúng."
+      },
+      {
+        "name": "Tâm lý học",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-tam-ly-hoc/",
+        "description": "Phân tích hành vi, cảm xúc và trị liệu tâm lý."
+      },
+      {
+        "name": "Quan hệ công chúng",
+        "link": "https://tuyensinh.ued.udn.vn/index.php/2024/04/02/nganh-quan-he-cong-chung/",
+        "description": "Xây dựng và duy trì hình ảnh tích cực cho tổ chức."
+      },
+      {
+        "name": "Chính trị học",
+        "link": "https://tuyensinh.ussh.edu.vn/Chinh-tri-hoc-1466/",
+        "description": "Nghiên cứu hệ thống chính trị, tư tưởng và quản lý nhà nước."
+      }
+    ],
+    "ENTJ": [
+      {
+        "name": "Quản trị kinh doanh",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5621",
+        "description": "Điều hành doanh nghiệp, lập kế hoạch và quản lý nguồn lực."
+      },
+      {
+        "name": "Quản lý chuỗi cung ứng",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5623",
+        "description": "Điều phối các mắt xích trong sản xuất đến tiêu dùng."
+      },
+      {
+        "name": "Tài chính",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5635",
+        "description": "Quản lý nguồn vốn, đầu tư và đánh giá rủi ro tài chính."
+      },
+      {
+        "name": "Marketing",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5626",
+        "description": "Xây dựng thương hiệu, quảng bá và tiếp cận thị trường."
+      },
+      {
+        "name": "Quản trị kinh doanh",
+        "link": "https://due.udn.vn/vi-vn/tuvantuyensinh2025/gt/cid/5621",
+        "description": "Điều hành doanh nghiệp, lập kế hoạch và quản lý nguồn lực."
+      }
+    ]
+<<<<<<< HEAD
+  }
+=======
+  }
+>>>>>>> b78728a (Update MBTI pages and chatbot logic)

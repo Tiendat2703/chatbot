@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{% block title %}MBTI Test{% endblock %}
+
+{% block content %}
+<section class="mbti-test-section py-5">
+  <div class="container text-center animate__animated animate__fadeIn">
+    <h1 class="fw-bold display-4 text-gradient mb-4">🧠 Làm bài trắc nghiệm MBTI</h1>
+
+    <div class="mbti-progress-container mb-5">
+      <div class="mbti-progress-label fs-5">
+        <span id="currentQuestion">{{ page }}</span>/{{ total_pages }}
+      </div>
+      <div class="mbti-progress-bar">
+        <div class="mbti-progress-fill" id="progressFill"></div>
+      </div>
+    </div>
+
+    <form id="mbtiForm" method="POST">
+      <div class="question-block card mb-5 shadow-lg p-5">
+        <h4 class="fw-bold mb-4">{{ page }}. {{ questions[0].question }}</h4>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="option-block form-control py-4 fw-semibold fs-5">
+              <input type="radio" name="{{ questions[0].id }}" value="a" class="me-2 option-radio"
+                {% if session.mbti_answers and questions[0].id in session.mbti_answers and session.mbti_answers[questions[0].id] == 'a' %}checked{% endif %}>
+              A. {{ questions[0].option_a }}
+            </label>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="option-block form-control py-4 fw-semibold fs-5">
+              <input type="radio" name="{{ questions[0].id }}" value="b" class="me-2 option-radio"
+                {% if session.mbti_answers and questions[0].id in session.mbti_answers and session.mbti_answers[questions[0].id] == 'b' %}checked{% endif %}>
+              B. {{ questions[0].option_b }}
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between">
+        {% if page > 1 %}
+        <a href="{{ url_for('mbti_test', page=page-1) }}" class="btn btn-outline-primary btn-lg px-4">← Quay lại</a>
+        {% else %}
+        <button class="btn btn-outline-secondary btn-lg px-4 invisible">←</button>
+        {% endif %}
+
+        {% if page < total_pages %}
+        <button type="submit" class="btn btn-primary btn-lg px-4" id="nextBtn" disabled>Tiếp theo →</button>
+        {% else %}
+        <button type="submit" class="btn btn-success btn-lg px-4" id="nextBtn" disabled>Xem kết quả</button>
+        {% endif %}
+      </div>
+    </form>
+  </div>
+</section>
+
+<style>
+.mbti-test-section {
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  min-height: 100vh;
+}
+.option-block {
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.option-block:hover {
+  background-color: #e3f9f1;
+  border-color: #59cd90;
+}
+.option-radio:checked + label,
+.option-block input[type="radio"]:checked + label {
+  background-color: #d6f5e8;
+  border-color: #198754;
+  color: #198754;
+}
+.option-block input[type="radio"] {
+  accent-color: #0d6efd;
+}
+.mbti-progress-container {
+  max-width: 700px;
+  margin: auto;
+}
+.mbti-progress-label {
+  font-weight: 600;
+  color: #198754;
+  margin-bottom: 6px;
+}
+.mbti-progress-bar {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  height: 14px;
+  overflow: hidden;
+}
+.mbti-progress-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: 30px;
+  background: linear-gradient(to right, #f5cb42, #59cd90);
+  transition: width 0.4s ease-in-out;
+}
+.text-gradient {
+  background: linear-gradient(to right, #0d6efd, #6610f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentPage = {{ page }};
+    const totalQuestions = {{ total_pages }};
+    const percent = (currentPage / totalQuestions) * 100;
+    document.getElementById('progressFill').style.width = percent + '%';
+
+    const radios = document.querySelectorAll('input[type="radio"]');
+    const nextBtn = document.getElementById('nextBtn');
+
+    radios.forEach(radio => {
+      radio.addEventListener('change', () => {
+        nextBtn.disabled = false;
+      });
+    });
+
+    // Nếu quay lại câu trước và đã chọn thì nút tiếp theo được bật sẵn
+    for (let radio of radios) {
+      if (radio.checked) {
+        nextBtn.disabled = false;
+        break;
+      }
+    }
+  });
+</script>
+{% endblock %}

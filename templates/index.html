@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en-gb" class="no-js">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>UniX</title>
+<meta name="description" content="">
+<link href="{{ url_for('static', filename='base/css/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='base/css/animate.css') }}" rel="stylesheet" media="screen">
+<link href="{{ url_for('static', filename='base/css/styles.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='base/font/css/font-awesome.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='uicss/navbar.css') }}" rel="stylesheet">
+
+<style>
+  .circle-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .small-text {
+    font-size: 20px;
+  }
+
+  .big-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+    filter: blur(50px);
+    opacity: 0.8;
+
+  }
+
+  .layer {
+    width: 100%;
+    height: 50%;
+  }
+
+  .layer1 {
+    background: conic-gradient(
+      from 180deg at 99% 40% in lab,
+      rgb(255, 255, 255) 18deg,
+      rgb(0, 195, 255) 36deg,
+      rgba(17, 17, 17, 0) 90deg,
+      rgba(17, 17, 17, 0) 342deg,
+      rgb(255, 255, 255) 360deg
+    );
+  }
+
+  .layer2 {
+    background: conic-gradient(
+      from 0deg at 99% 60% in lab,
+      rgb(255, 255, 255) 0deg,
+      rgba(17, 17, 17, 0) 18deg,
+      rgba(17, 17, 17, 0) 270deg,
+      rgb(0, 195, 255) 324deg,
+      rgb(255, 255, 255) 342deg
+    );
+  }
+
+  .overlay-dark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 0; /* nằm dưới nội dung chính, nhưng trên nền canvas nếu cần */
+  
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.7) 40%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.2) 100%
+    );
+  }
+
+  .main-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  #backgroundCanvas,
+  #starsCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* canvas ở dưới cùng */
+            pointer-events: none; /* cho phép click xuyên qua */
+        }
+
+</style>
+</head>
+
+<body>
+
+<!-- Topbar -->
+<div style="position: fixed; top: 0; left: 0; right: 0; height: 60px; background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)); display: flex; align-items: center; padding: 0 20px; z-index: 1000; justify-content: space-between;">
+    
+  <!-- Left side: logo + nav links -->
+  <div style="display: flex; align-items: center; gap: 40px;">
+      <a href="{{ url_for('home') }}">
+          <img src="static/media/anotherunix.png" alt="logo" style="width: 50px; height: 50px; border-radius: 50%;" />
+      </a>
+
+      <a href="{{ url_for('home') }}" class="nav-link small-text">Home</a>
+      <a href="{{ url_for('mbti_intro') }}" class="nav-link small-text">MBTI Test</a>
+      <a href="{{ url_for('overview') }}" class="nav-link small-text">Overview Dashboard</a>
+      <a href="{{ url_for('chatbot') }}" class="nav-link small-text">Chatbot</a>
+      
+  </div>
+
+
+  <!-- Right side: user avatar -->
+  {% if current_user.is_authenticated %}
+  <a href="{{ url_for('profile') }}" style="text-decoration: none;">
+      <div style="
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background-color:rgb(0, 145, 255);
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+      ">
+          {{ current_user.username[0]|upper }}
+      </div>
+  </a>
+  {% endif %}
+</div>
+
+<!-- Gradient nền giống Grok -->
+<div style="background: black;">
+  <div style="border-bottom: 2px solid #fff; background: url('/static/media/index.png') no-repeat center center; background-size: cover;">
+    <canvas id="backgroundCanvas"></canvas>
+    <canvas id="starsCanvas"></canvas>
+
+    <div class="big-background">
+      <div class="overlay-dark"></div>
+      <div class="layer layer1"></div>
+      <div class="layer layer2"></div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Nội dung chính của bạn -->
+<div class="main-content">
+  <!-- Your page content here -->
+</div>
+
+
+
+
+<div id="#top"></div>
+<section id="home">
+  <div class="banner-container">
+    <div class="container">
+      <div class="row">
+        <div class="logo" style="width: 200px; height:200px; text-align: left;"> <img src="static/media/anotherunix.png" alr='logo' class="circle-image" /> </div>
+      </div>
+      <div class="heading text-center">
+        <h2>UniX - Nền tảng hỗ trợ tìm kiếm thông tin tuyển sinh</h2>
+        
+      </div>
+      <div class="countdown styled"></div>
+    </div>
+  </div>
+</section>
+<section id="services" class="page-section colord">
+  <div class="container">
+    <div class="row"> 
+      
+      <div class="col-md-3 text-center"> <i class="fa fa-globe fa-2x circle"></i>
+        <h3><span class="id-color">Website</span></h3>
+        <p>Đếm ngược ngày thi</p>
+      </div>
+      
+      <div class="col-md-3 text-center"> <i class="fa fa-users fa-2x circle"></i>
+        <h3><span class="id-color">MBTI Test</span></h3>
+        <p>Bài kiểm tra tính cách để tìm ngành nghề phù hợp</p>
+      </div>
+      
+      <div class="col-md-3 text-center"> <i class="fa fa-bar-chart fa-2x circle"></i>
+        <h3><span class="id-color">Overview</span></h3>
+        <p> Dashboard tổng quan điểm chuẩn các trường đại học</p>
+      </div>
+      
+      <div class="col-md-3 text-center"> <i class="fa fa-comments-o fa-2x circle"></i>
+        <h3><span class="id-color">Trợ lý tuyển sinh</span></h3>
+        <p>Thông tin điểm thi và tuyển sinh đại học</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contactUs" class="contact-parlex">
+  <div class="parlex-back">
+    <div class="container" style="height:700px;">
+    </div>
+  </div>
+</section>
+
+
+<section class="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center"> Copyright 2025 - UniX | All Rights Reserved</div>
+    </div>
+  </div>
+</section>
+
+<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+
+<script src="static/base/js/modernizr-latest.js"></script>
+<script src="static/base/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="static/base/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="static/base/js/jquery.nav.js" type="text/javascript"></script>
+<script src="static/base/js/waypoints.js"></script>
+<script src="static/base/js/backstretch.js" type="text/javascript"></script>
+<script src="static/base/js/custom.js" type="text/javascript"></script>
+<script type="text/javascript" src="static/base/js/jquery.countdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="static/js/indexcanvas.js"></script>
+
+{% include '/chatbot_floating.html' %}
+</body>
+</html>

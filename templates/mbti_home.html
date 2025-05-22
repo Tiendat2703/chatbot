@@ -1,0 +1,157 @@
+<<<<<<< HEAD
+{% extends "base.html" %}
+
+{% block title %}Trắc nghiệm tính cách MBTI - Khám phá bản thân{% endblock %}
+
+{% block content %}
+<section class="mbti-section py-5">
+    <div class="container text-center">
+        <h1 class="fw-bold display-4">TRẮC NGHIỆM TÍNH CÁCH MBTI</h1>
+        <p class="lead">
+            Khám phá tiềm năng bản thân và chọn ngành nghề phù hợp
+        </p>
+        <a href="{{ url_for('mbti_test') }}" class="btn btn-primary px-4 py-2 my-4">Làm bài test ngay →</a>
+    </div>
+
+    <div class="container pb-5">
+        <div class="carousel-scroll-row d-flex flex-nowrap overflow-auto px-2">
+            {% for type, info in mbti_profiles.items() %}
+            <div class="mbti-card me-3 flex-shrink-0 text-decoration-none text-dark"
+                 style="min-width: 240px; max-width: 240px; background: {{ info.background }};">
+                <img src="{{ url_for('static', filename=info.image) }}" 
+                     class="card-img-top p-4" 
+                     style="height: 160px; object-fit: contain;" 
+                     alt="{{ type }}">
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{ type }} – {{ info.name }}</h5>
+                    <p class="card-text small">{{ info.description_short }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<style>
+.mbti-section {
+    background: linear-gradient(180deg, #e6f3f9 0%, #ffffff 100%);
+    min-height: 100vh;
+}
+
+.carousel-scroll-row {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.carousel-scroll-row::-webkit-scrollbar {
+    display: none;
+}
+
+.mbti-card {
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mbti-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const container = document.querySelector(".carousel-scroll-row");
+        let scrollAmount = 1;
+        let currentScroll = 0;
+    
+        function autoScroll() {
+            if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
+                container.scrollLeft = 0;  // Quay lại đầu
+            } else {
+                container.scrollLeft += scrollAmount; // Di chuyển mượt không lag
+            }
+        }
+    
+        setInterval(autoScroll, 20);  // Tăng/giảm tốc ở đây
+    });
+    </script>
+{% endblock %}
+=======
+{% extends "base.html" %}
+
+{% block title %}Trắc nghiệm tính cách MBTI - Khám phá bản thân{% endblock %}
+
+{% block content %}
+<section class="mbti-section py-5">
+    <div class="container text-center">
+        <h1 class="fw-bold display-4">TRẮC NGHIỆM TÍNH CÁCH MBTI</h1>
+        <p class="lead">
+            Khám phá tiềm năng bản thân và chọn ngành nghề phù hợp
+        </p>
+        <a href="{{ url_for('mbti_test') }}" class="btn btn-primary px-4 py-2 my-4">Làm bài test ngay →</a>
+    </div>
+
+    <div class="container pb-5">
+        <div class="carousel-scroll-row d-flex flex-nowrap overflow-auto px-2">
+            {% for type, info in mbti_profiles.items() %}
+            <div class="mbti-card me-3 flex-shrink-0 text-decoration-none text-dark"
+                 style="min-width: 240px; max-width: 240px; background: {{ info.background }};">
+                <img src="{{ url_for('static', filename=info.image) }}" 
+                     class="card-img-top p-4" 
+                     style="height: 160px; object-fit: contain;" 
+                     alt="{{ type }}">
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{ type }} – {{ info.name }}</h5>
+                    <p class="card-text small">{{ info.description_short }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<style>
+.mbti-section {
+    background: linear-gradient(180deg, #e6f3f9 0%, #ffffff 100%);
+    min-height: 100vh;
+}
+
+.carousel-scroll-row {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.carousel-scroll-row::-webkit-scrollbar {
+    display: none;
+}
+
+.mbti-card {
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.mbti-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const container = document.querySelector(".carousel-scroll-row");
+        let scrollAmount = 1;
+        let currentScroll = 0;
+    
+        function autoScroll() {
+            if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
+                container.scrollLeft = 0;  // Quay lại đầu
+            } else {
+                container.scrollLeft += scrollAmount; // Di chuyển mượt không lag
+            }
+        }
+    
+        setInterval(autoScroll, 20);  // Tăng/giảm tốc ở đây
+    });
+    </script>
+{% endblock %}
+>>>>>>> b78728a (Update MBTI pages and chatbot logic)

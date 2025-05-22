@@ -1,0 +1,562 @@
+[
+  {
+    "id": "q1",
+    "question": "Trong một buổi tiệc, bạn sẽ ?",
+    "option_a": "Nói chuyện với tất cả mọi người, kể cả người lạ",
+    "option_b": "Nói chuyện với những người bạn quen",
+    "a_trait": "E",
+    "b_trait": "I"
+  },
+  {
+    "id": "q2",
+    "question": "Xu hướng nào trong bạn mạnh hơn ?",
+    "option_a": "Hướng tới những điều thực tế và cụ thể",
+    "option_b": "Hướng tới các dự đoán trong tương lai",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q3",
+    "question": "Tình huống nào khiến bạn cảm thấy tệ hơn ?",
+    "option_a": "Mọi thứ mông lung, không rõ ràng",
+    "option_b": "Nhàm chán, đơn điệu",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q4",
+    "question": "Bạn thấy ấn tượng bởi ?",
+    "option_a": "Nguyên lý, nguyên tắc",
+    "option_b": "Cảm xúc, tình cảm",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q5",
+    "question": "Bạn có xu hướng nghiêng về ?",
+    "option_a": "Những gì có tính thuyết phục",
+    "option_b": "Những gì cảm động",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q6",
+    "question": "Bạn thích làm việc ?",
+    "option_a": "Theo thời hạn (deadline)",
+    "option_b": "Tùy hứng",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q7",
+    "question": "Khi lựa chọn, bạn thường ?",
+    "option_a": "Khá cẩn thận, xem xét kĩ lưỡng",
+    "option_b": "Tin vào cảm giác lúc lựa chọn",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q8",
+    "question": "Tại các buổi gặp mặt, bạn sẽ ?",
+    "option_a": "Ở lại đến cuối buổi, càng lúc càng phấn khích",
+    "option_b": "Ra về sớm và cảm thấy mệt",
+    "a_trait": "E",
+    "b_trait": "I"
+  },
+  {
+    "id": "q9",
+    "question": "Tuýp người nào sẽ thu hút bạn hơn ?",
+    "option_a": "Người có đầu óc xét đoán, biết điều",
+    "option_b": "Người có khả năng tưởng tượng phong phú",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q10",
+    "question": "Bạn hứng thú hơn với ?",
+    "option_a": "Những việc thực tế xảy ra",
+    "option_b": "Những việc có khả năng xảy ra",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q11",
+    "question": "Khi đánh giá người khác, bạn thường ?",
+    "option_a": "Dựa trên các quy định, luật lệ",
+    "option_b": "Dựa trên hoàn cảnh cụ thể",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q12",
+    "question": "Khi tiếp cận người khác, bạn nghiêng về ?",
+    "option_a": "Tiếp cận khách quan",
+    "option_b": "Tiếp cận cá nhân",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q13",
+    "question": "Phong cách đúng với bạn hơn ?",
+    "option_a": "Đúng giờ",
+    "option_b": "Nhàn nhã, thoải mái",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q14",
+    "question": "Bạn bồn chồn khi có những việc ?",
+    "option_a": "Chưa hoàn thiện",
+    "option_b": "Đã hoàn thiện",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q15",
+    "question": "Bạn là người ?",
+    "option_a": "Luôn nắm bắt kịp thời thông tin về các vấn đề của mọi người",
+    "option_b": "Thường biết thông tin sau",
+    "a_trait": "E",
+    "b_trait": "I"
+  },
+  {
+    "id": "q16",
+    "question": "Với các công việc thông thường, bạn nghiêng về cách ?",
+    "option_a": "Làm theo cách thông thường",
+    "option_b": "Làm theo cách của riêng mình",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q17",
+    "question": "Theo bạn, các nhà văn nên ?",
+    "option_a": "Viết những gì họ nghĩ, và nghĩ những gì họ viết, một cách rõ ràng",
+    "option_b": "Diễn đạt sự việc bằng cách so sánh, liên tưởng",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q18",
+    "question": "Điều gì lôi cuốn bạn hơn ?",
+    "option_a": "Sự nhất quán về tư duy, suy nghĩ",
+    "option_b": "Sự hòa hợp trong các mối quan hệ con người",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q19",
+    "question": "Bạn cảm thấy thoải mái hơn khi đưa ra nhận xét ?",
+    "option_a": "Một cách logic",
+    "option_b": "Một cách có ý nghĩa, có giá trị",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q20",
+    "question": "Bạn thích những điều ?",
+    "option_a": "Được định trước",
+    "option_b": "Chưa được quyết định",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q21",
+    "question": "Bạn là người ?",
+    "option_a": "Nghiêm túc và quyết đoán",
+    "option_b": "Dễ tính, thoải mái",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q22",
+    "question": "Khi nói chuyện điện thoại, bạn ?",
+    "option_a": "Hiếm khi băn khoăn đến những điều mình sẽ nói",
+    "option_b": "Thường chuẩn bị trước những điều mình sẽ nói",
+    "a_trait": "E",
+    "b_trait": "I"
+  },
+  {
+    "id": "q23",
+    "question": "Theo bạn, 'các sự việc, sự kiện' ?",
+    "option_a": "'Bản thân nó giải thích cho chính nó'",
+    "option_b": "Nó là bằng chứng giải thích cho các quy tắc, quy luật",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q24",
+    "question": "Những người có tầm nhìn xa ?",
+    "option_a": "Ở mức độ nào đó, họ thường gây khó chịu cho người khác",
+    "option_b": "Khá thú vị",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q25",
+    "question": "Bạn là người ?",
+    "option_a": "Có cái đầu lạnh",
+    "option_b": "Có trái tim ấm",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q26",
+    "question": "Điều nào tồi tệ hơn ?",
+    "option_a": "Không công bằng",
+    "option_b": "Tàn nhẫn",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q27",
+    "question": "Mọi người nên để các sự kiện xảy ra ?",
+    "option_a": "Theo sự lựa chọn và cân nhắc kĩ lưỡng",
+    "option_b": "Diễn ra ngẫu nhiên, tự nhiên",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q28",
+    "question": "Bạn cảm thấy thoải mái hơn khi ?",
+    "option_a": "Đã mua một thứ gì đó",
+    "option_b": "Có khả năng và có sự lựa chọn để mua",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q29",
+    "question": "Trong công ty, bạn là người ?",
+    "option_a": "Khởi xướng các câu chuyện",
+    "option_b": "Đợi người khác khởi xướng để nói chuyện",
+    "a_trait": "E",
+    "b_trait": "I"
+  },
+  {
+    "id": "q30",
+    "question": "Những logic được mọi người chấp nhận, bạn sẽ ?",
+    "option_a": "Tin tưởng vào những điều đó và không nghi ngờ",
+    "option_b": "Xem xét lại tính đúng đắn của những điều đó",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q31",
+    "question": "Trẻ em thường không ?",
+    "option_a": "Tự mình phát huy hết năng lực",
+    "option_b": "Thỏa mãn hết trí tưởng tượng của mình",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q32",
+    "question": "Khi đưa ra các quyết định, bạn thiên về ?",
+    "option_a": "Các tiêu chuẩn, quy định",
+    "option_b": "Cảm xúc, cảm nhận",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q33",
+    "question": "Bạn nghiêng về tính cách ?",
+    "option_a": "Chắc chắn hơn là nhẹ nhàng",
+    "option_b": "Nhẹ nhàng hơn là chắc chắn",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q34",
+    "question": "Khả năng nào đáng khâm phục hơn ?",
+    "option_a": "Khả năng tổ chức và làm việc có phương pháp",
+    "option_b": "Khả năng thích ứng và xoay xở trước mọi tình huống",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q35",
+    "question": "Bạn đề cao ?",
+    "option_a": "Sự chắc chắn",
+    "option_b": "Sự cởi mở",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q36",
+    "question": "Đối mặt với những vấn đề mới, bạn thường ?",
+    "option_a": "Thấy kích thích và hào hứng",
+    "option_b": "Cảm thấy mệt mỏi",
+    "a_trait": "E",
+    "b_trait": "I"
+  },
+  {
+    "id": "q37",
+    "question": "Thường thì bạn là ?",
+    "option_a": "Người thực tế",
+    "option_b": "Người có khả năng tưởng tượng phong phú",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q38",
+    "question": "Bạn thường có xu hướng xem người khác ?",
+    "option_a": "Có thể làm được việc gì hữu ích",
+    "option_b": "Xem người khác sẽ nghĩ và cảm nhận như thế nào",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q39",
+    "question": "Bạn cảm thấy thoải mái hơn khi ?",
+    "option_a": "Thảo luận một vấn đề kĩ lưỡng, triệt để",
+    "option_b": "Đạt được thỏa thuận, sự nhất trí về vấn đề",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q40",
+    "question": "Cái đầu hay trái tim chi phối bạn nhiều hơn ?",
+    "option_a": "Cái đầu",
+    "option_b": "Trái tim",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q41",
+    "question": "Bạn thích công việc ?",
+    "option_a": "Được giao trọn gói, làm xong hết rồi bàn giao",
+    "option_b": "Công việc làm hàng ngày, theo lịch",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q42",
+    "question": "Bạn có xu hướng tìm kiếm những điều ?",
+    "option_a": "Theo trật tự, thứ tự",
+    "option_b": "Ngẫu nhiên",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q43",
+    "question": "Bạn thích kiểu nào hơn ?",
+    "option_a": "Nhiều bạn bè với mức độ tiếp xúc ngắn gọn",
+    "option_b": "Một vài bạn thân với mức độ tiếp xúc sâu",
+    "a_trait": "E",
+    "b_trait": "I"
+  },
+  {
+    "id": "q44",
+    "question": "Bạn thường dựa vào ?",
+    "option_a": "Sự kiện, thông tin",
+    "option_b": "Nguyên lí, nguyên tắc",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q45",
+    "question": "Bạn hứng thú với việc gì hơn ?",
+    "option_a": "Sản xuất và phân phối",
+    "option_b": "Thiết kế, nghiên cứu",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q46",
+    "question": "Bạn thích được khen là ?",
+    "option_a": "Một người có logic rất tốt",
+    "option_b": "Một người rất tình cảm, tinh tế",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q47",
+    "question": "Bạn thấy điều nào ở mình giá trị hơn ?",
+    "option_a": "Kiên định, vững vàng",
+    "option_b": "Toàn tâm, cống hiến",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q48",
+    "question": "Bạn thường thích ?",
+    "option_a": "Một tuyên bố cuối cùng, không thay đổi",
+    "option_b": "Một tuyên bố dự kiến, ban đầu",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q49",
+    "question": "Bạn thấy thoải mái hơn ?",
+    "option_a": "Trước khi đưa ra quyết định",
+    "option_b": "Sau khi đưa ra quyết định",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q50",
+    "question": "Bạn có thấy mình ?",
+    "option_a": "Dễ dàng bắt chuyện với người lạ",
+    "option_b": "Có ít điều để nói với người lạ",
+    "a_trait": "E",
+    "b_trait": "I"
+  },
+  {
+    "id": "q51",
+    "question": "Bạn có xu hướng tin tưởng vào ?",
+    "option_a": "Kinh nghiệm của mình",
+    "option_b": "Linh cảm của mình",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q52",
+    "question": "Bạn cho mình là người như thế nào ?",
+    "option_a": "Là người thực tế hơn là khéo léo, mưu trí",
+    "option_b": "Là người khéo léo, mưu trí hơn là thực tế",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q53",
+    "question": "Theo bạn ai sẽ là người đáng được khen ngợi ?",
+    "option_a": "Một người giàu lý trí",
+    "option_b": "Một người giàu cảm xúc",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q54",
+    "question": "Bạn có xu hướng nhiều hơn về ?",
+    "option_a": "Công bằng, vô tư",
+    "option_b": "Thông cảm, đồng cảm",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q55",
+    "question": "Mọi việc sẽ hợp lý hơn nếu ?",
+    "option_a": "Được chuẩn bị trước",
+    "option_b": "Diễn ra tự nhiên",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q56",
+    "question": "Mọi việc ?",
+    "option_a": "Có thể nói chuyện để giải quyết được",
+    "option_b": "Nên để mọi việc diễn ra ngẫu nhiên theo điều kiện hoàn cảnh",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q57",
+    "question": "Khi chuông điện thoại reo, bạn sẽ ?",
+    "option_a": "Là người đầu tiên nhấc máy để nghe",
+    "option_b": "Hi vọng có người khác sẽ nhấc máy",
+    "a_trait": "E",
+    "b_trait": "I"
+  },
+  {
+    "id": "q58",
+    "question": "Bạn đánh giá cao điều gì trong mình hơn ?",
+    "option_a": "Cảm nhận tốt các yếu tố thực tế",
+    "option_b": "Trí tưởng tượng phong phú, rực rỡ",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q59",
+    "question": "Bạn sẽ chú tâm hơn đến ?",
+    "option_a": "Các nguyên tắc, nguyên lý cơ bản",
+    "option_b": "Các ngụ ý, hàm ý, ẩn ý",
+    "a_trait": "S",
+    "b_trait": "N"
+  },
+  {
+    "id": "q60",
+    "question": "Bạn không thích những người ?",
+    "option_a": "Quá nồng nhiệt, thiết tha",
+    "option_b": "Quá khách quan",
+    "a_trait": "F",
+    "b_trait": "T"
+  },
+  {
+    "id": "q61",
+    "question": "Bạn sẽ đánh giá mình là người thế nào ?",
+    "option_a": "Thiết thực, ít bị chi phối bởi tình cảm",
+    "option_b": "Từ tâm, đa cảm",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q62",
+    "question": "Tình huống nào sẽ lôi cuốn bạn ?",
+    "option_a": "Tình huống rõ ràng, có kế hoạch",
+    "option_b": "Tình huống không xác định, không có kế hoạch",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q63",
+    "question": "Bạn là người có xu hướng nào hơn ?",
+    "option_a": "Theo thói quen",
+    "option_b": "Hay thay đổi",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q64",
+    "question": "Bạn có xu hướng ?",
+    "option_a": "Là người dễ tiếp cận",
+    "option_b": "Ở mức độ nào đó là người kín đáo",
+    "a_trait": "E",
+    "b_trait": "I"
+  },
+  {
+    "id": "q65",
+    "question": "Khi viết, bạn thích ?",
+    "option_a": "Viết theo hướng văn chương hơn",
+    "option_b": "Viết theo số liệu, dữ liệu hơn",
+    "a_trait": "F",
+    "b_trait": "T"
+  },
+  {
+    "id": "q66",
+    "question": "Điều gì khó thực hiện hơn ?",
+    "option_a": "Hiểu và chia sẻ với người khác",
+    "option_b": "Sử dụng người khác",
+    "a_trait": "F",
+    "b_trait": "T"
+  },
+  {
+    "id": "q67",
+    "question": "Bạn mong ước mình sẽ có thêm ?",
+    "option_a": "Lí trí suy xét rõ ràng",
+    "option_b": "Tình thương, lòng trắc ẩn sâu sắc",
+    "a_trait": "T",
+    "b_trait": "F"
+  },
+  {
+    "id": "q68",
+    "question": "Điều gì sẽ là lỗi lớn hơn ?",
+    "option_a": "Hành động bừa bãi, không cân nhắc",
+    "option_b": "Hành động chỉ trích, phê phán",
+    "a_trait": "P",
+    "b_trait": "J"
+  },
+  {
+    "id": "q69",
+    "question": "Bạn sẽ thích ?",
+    "option_a": "Sự kiện có kế hoạch trước",
+    "option_b": "Sự kiện không có kế hoạch trước",
+    "a_trait": "J",
+    "b_trait": "P"
+  },
+  {
+    "id": "q70",
+    "question": "Bạn thiên về xu hướng hành động ?",
+    "option_a": "Cân nhắc thận trọng",
+    "option_b": "Tự nhiên, tự phát",
+    "a_trait": "J",
+    "b_trait": "P"
+  }
+]

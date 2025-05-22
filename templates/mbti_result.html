@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block title %}Kết quả MBTI - {{ result }}{% endblock %}
+
+{% block content %}
+<section class="result-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-success">🔍 Kết quả trắc nghiệm MBTI của bạn:</h2>
+      <h3 class="text-primary">{{ result }} - {{ profile.name }}</h3>
+    </div>
+
+    <div class="card p-4 shadow mb-4">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="{{ url_for('static', filename=profile.image) }}" alt="{{ result }}" class="img-fluid" style="max-height: 250px;">
+        </div>
+        <div class="col-md-8">
+          <p class="lead">{{ profile.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    {% if profile.overview %}
+    <div class="card p-4 shadow-sm mb-4 bg-white">
+      <h4 class="text-primary fs-4 fw-bold mb-3">TỔNG QUAN</h4>
+      <div class="overview-text" style="white-space: pre-line;">{{ profile.overview }}</div>
+    </div>
+    {% endif %}
+
+    <div class="card p-4 shadow-sm mb-4 bg-light">
+      <h4 class="text-success fs-4 fw-bold">✅ Ưu điểm</h4>
+      <ul class="list-group list-group-flush">
+        {% for s in profile.strengths %}
+        <li class="list-group-item">{{ s }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="card p-4 shadow-sm mb-4 bg-light">
+      <h4 class="text-warning fs-4 fw-bold">⚠️ Nhược điểm</h4>
+      <ul class="list-group list-group-flush">
+        {% for w in profile.weaknesses %}
+        <li class="list-group-item">{{ w }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="mb-5">
+      <h4 class="text-info fs-4 fw-bold mb-4">🎯 Gợi ý ngành học phù hợp</h4>
+      <div class="row">
+        {% for major in majors %}
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card h-100 shadow border-info">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title text-primary fw-bold">📘 {{ major.name }}</h5>
+              <p class="card-text text-muted">{{ major.description }}</p>
+              <a href="{{ major.link }}" target="_blank" class="btn btn-green mt-auto">Xem gợi ý</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+        <div class="text-center mt-3">
+          <em class="text-muted" style="font-size: 1rem;">
+            🔔 Lưu ý: Thông tin gợi ý ngành học chỉ mang tính chất tham khảo. Hệ thống không chịu trách nhiệm về bất kỳ quyết định hay hậu quả nào phát sinh từ việc sử dụng thông tin này.
+          </em>
+        </div>
+            
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="{{ url_for('mbti_test') }}" class="btn btn-blue btn-lg shadow px-5 text-white fw-bold">
+        🔄 Làm lại bài test
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+.result-section {
+  background: linear-gradient(to bottom, #f0f9ff, #ffffff);
+  min-height: 100vh;
+}
+.card-title {
+  font-size: 1.25rem;
+}
+.card-text {
+  font-size: 0.95rem;
+}
+.btn-green {
+  background-color: #16A34A;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.btn-green:hover {
+  background-color: #0e8a3d;
+  color: #fff;
+}
+.btn-blue {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.btn-blue:hover {
+  background-color: #0b5ed7;
+  color: #fff;
+}
+.overview-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+</style>
+{% endblock %}

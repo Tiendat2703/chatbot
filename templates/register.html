@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="{{ url_for('static', filename='login/style.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container centered-flex">
+        <div class="form-container">
+            <div class="icon fa fa-user-plus"></div>
+
+
+
+            <form class="centered-flex" action="{{ url_for('register') }}" method="POST">
+                <div class="title">REGISTER</div>
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                    <p class="error-flash">{{ message }}</p>
+                    {% endfor %}
+                {% endif %}
+                {% endwith %}
+                <div class="msg"></div>
+
+                <div class="field">
+                    <input type="text" placeholder="Username" name="username" required>
+                    <span class="fa fa-user"></span>
+                </div>
+
+                <div class="field">
+                    <input type="email" placeholder="Email" name="email" required>
+                    <span class="fa fa-envelope"></span>
+                </div>
+
+                <div class="field">
+                    <input type="password" placeholder="Password" name="password" required>
+                    <span class="fa fa-lock"></span>
+                </div>
+
+                <div class="btn-containerre">
+                    <input type="submit" id="login-btn" value="Sign up">
+                </div>
+
+                <div class="signupre">Don't have an Account?<a href="{{ url_for('login') }}"> Log in</a></div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='login/script_register.js') }}"></script>
+    <script>
+        const emailInput = document.querySelector('input[name="email"]');
+        const errorFlashList = document.querySelectorAll('.error-flash');
+    
+        if (emailInput) {
+            emailInput.addEventListener('input', () => {
+                errorFlashList.forEach((el) => {
+                    if (el.innerText.includes('email') || el.innerText.includes('Email')) {
+                        el.style.display = 'none';
+                    }
+                });
+            });
+        }
+    </script>
+    
+</body>
+
+</html>

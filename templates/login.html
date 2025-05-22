@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="{{ url_for('static', filename='login/style.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container centered-flex">
+        <div class="form-container">
+            <div class="icon fa fa-user"></div>
+
+
+
+            <form class="centered-flex" action="{{ url_for('login') }}" method="POST">
+                <div class="title">LOGIN</div>
+
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
+                {% endwith %}
+
+                
+                <div class="msg"></div>
+                <div class="field">
+                    <input type="email" id="uname" name="email" value="{{ email }}" autocomplete="off">
+
+
+                    <span class="fa fa-user"></span>
+                </div>
+                <div class="field">
+                    <input type="password" placeholder="Password" id="pass" name="password" required>
+                    <span class="fa fa-lock"></span>
+                </div>
+                <div class="action centered-flex">
+                    <label for="remember" class="centered-flex">
+                        <input type="checkbox" id="remember"> Remember me
+                    </label>
+                    <a href="{{ url_for('forget_password') }}">Forget Password ?</a>
+                </div>
+                <div class="btn-container">
+                    <input type="submit" id="login-btn" value="Login">
+                </div>
+                <div class="signup">Don't have an Account?<a href="{{ url_for('register') }}"> Sign up</a></div>
+            </form>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='login/script.js') }}"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          // ⚡ Gọi showMsg ngay khi load, để auto check form nếu đã đủ
+          if (typeof showMsg === 'function') {
+            showMsg();
+          }
+        });
+        </script>
+</body>
+</html>

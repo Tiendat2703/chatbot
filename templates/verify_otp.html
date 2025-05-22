@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify OTP</title>
+    <link href="{{ url_for('static', filename='login/style.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container centered-flex">
+        <div class="form-container">
+            <div class="icon fa fa-key"></div>
+
+            <form class="centered-flex" method="POST">
+                <div class="title">
+                    {% if purpose == 'reset' %}
+                    RESET PASSWORD – VERIFY OTP
+                  {% else %}
+                    VERIFY ACCOUNT
+                  {% endif %}
+                </div>
+
+                <div class="msg">
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        {% for category, message in messages %}
+                            <p class="success-flash">{{ message }}</p>
+                        {% endfor %}
+                    {% endif %}
+                    {% endwith %}
+                </div>
+
+                <div class="field">
+                    <input type="text" placeholder="Enter OTP" name="otp" required>
+                    <span class="fa fa-shield-alt"></span>
+                </div>
+
+                <div class="btn-containerre">
+                    <input type="submit" id="login-btn" value="Verify">
+                </div>
+
+                <div class="signupre">
+                    Didn't receive the code? 
+                    <a href="{{ url_for('resend_otp') }}" id="resend-link">Resend OTP</a>
+                    <span id="countdown" style="margin-left: 10px; color: #aaa;"></span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ✅ Countdown placed here, after DOM is ready -->
+    <script>
+        let resendLink = document.getElementById("resend-link");
+        let countdown = document.getElementById("countdown");
+
+        let secondsRemaining = 60;
+
+        resendLink.style.pointerEvents = "none";
+        resendLink.style.color = "#555";
+        countdown.innerText = `(${secondsRemaining}s left)`;
+
+        let timer = setInterval(() => {
+            secondsRemaining--;
+            countdown.innerText = `(${secondsRemaining}s left)`;
+
+            if (secondsRemaining <= 0) {
+                clearInterval(timer);
+                countdown.innerText = "";
+                resendLink.style.pointerEvents = "auto";
+                resendLink.style.color = "#4db8ff";
+            }
+        }, 1000);
+    </script>
+
+    <script src="{{ url_for('static', filename='login/verify_otp.js') }}"></script>
+</body>
+
+</html>

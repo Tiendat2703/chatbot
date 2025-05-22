@@ -1,0 +1,358 @@
+{
+  "ENFJ": {
+    "name": "The Teacher - Người Chỉ Dạy",
+    "description": "ENFJ là những người hướng ngoại, trực giác, cảm xúc và phán đoán. Họ lãnh đạo tự nhiên và truyền cảm hứng.",
+    "overview": "Nhóm tính cách ENFJ là những người có khả năng tác động mạnh tới người khác thông qua cả hành động lẫn lời nói. Họ là những người tham vọng nhưng không hề tư lợi mà luôn hướng đến mục tiêu và lợi ích chung của cộng đồng. Đặc biệt, khả năng thấu hiểu và đồng cảm mạnh mẽ khiến các ENFJ trở thành nhân tố quan trọng trong những lĩnh vực liên quan tới con người.\n\nENFJ là viết tắt của những chữ cái gì?\n● E - Hướng ngoại: Đối với bạn, thế giới bên ngoài mới là thế giới thực. Trái ngược với tính cách I - Hướng nội luôn đắm mình trong thế giới nội tâm.\n\n● N - Trực giác: Bạn tập trung vào ý nghĩa của sự vật, sự việc, khác với những người có tính cách S - Giác quan sử dụng cả năm giác quan thị giác, thính giác, khứu giác, vị giác, cảm giác để nhìn nhận và đánh giá.\n\n● F - Cảm xúc: Bạn đưa ra quyết định chủ yếu dựa trên cảm nhận cá nhân. Ngược lại, những người có tính cách T - Lý trí lại đưa ra quyết định dựa vào số liệu và đo lường chính xác.\n\n● J - Nguyên tắc: Bạn dựa vào cấu trúc sẵn có để thoải mái đưa ra quan điểm mà không phải mất công suy xét nhiều. Trong khi đó, những người thiên về tính cách P - Linh hoạt lại thích môi trường tự do và họ sẽ tự sắp đặt quy tắc bên trong cho mình.",
+    "strengths": [
+      "Giỏi giao tiếp và thấu hiểu người khác",
+      "Lòng trắc ẩn và vị tha",
+      "Khả năng lãnh đạo và truyền cảm hứng",
+      "Sáng tạo và đổi mới"
+    ],
+    "weaknesses": [
+      "Quá nhạy cảm",
+      "Quá vị tha",
+      "Thường xuyên lo lắng",
+      "Khó nói không"
+    ],
+    "image": "mbti_images/ENFJ.svg",
+    "careers": [
+      "Giáo dục",
+      "Tư vấn",
+      "Quản lý dự án"
+    ]
+  },
+  "ENFP": {
+    "name": "Campaigner - Người Truyền Cảm Hứng",
+    "description": "ENFP là những người sáng tạo, hướng đến con người và linh hoạt.",
+    "overview": "ENFP là nhóm tính cách nổi bật với khả năng sáng tạo không giới hạn, sẵn sàng lan tỏa những ý tưởng mới tới những người xung quanh. Các ENFP nhiệt tình, ấm áp và khá “quấn người”. Đối với họ, cuộc sống là để khám phá và tận hưởng từng phút giây, từng khoảnh khắc.\n\nENFP là viết tắt của những chữ cái gì?\n●     E - Hướng ngoại: Đối với những người thuộc nhóm tính cách ENFP, thế giới bên ngoài mới là thế giới thực. Trái ngược với tính cách I - Hướng nội luôn đắm mình trong thế giới nội tâm.\n\n●     N - Trực giác: Nhóm tính cách ENFP tập trung vào ý nghĩa của sự vật, sự việc, khác với những người có tính cách S - Giác quan sử dụng cả năm giác quan là: thị giác, thính giác, khứu giác, vị giác, cảm giác để nhìn nhận và đánh giá.\n\n●     F - Cảm xúc: Các ENFP đưa ra quyết định chủ yếu dựa trên cảm nhận cá nhân. Ngược lại, những người có tính cách T - Lý trí lại đưa ra quyết định dựa vào số liệu và đo lường chính xác.\n\n●     P - Linh hoạt: Bạn thỏa thích vẫy vùng trong thế giới của riêng mình với những quy tắc ngầm được bạn tự tay sắp xếp. Trái lại, những người thuộc nhóm J - Nguyên tắc lại cảm thấy ổn khi được áp cho những luật lệ được sắp đặt sẵn.",
+    "strengths": [
+      "Trí tưởng tượng phong phú",
+      "Sáng tạo và đổi mới",
+      "Giỏi giao tiếp và thấu hiểu người khác",
+      "Lòng trắc ẩn và vị tha"
+    ],
+    "weaknesses": [
+      "Hay mơ mộng",
+      "Khó tập trung",
+      "Thường xuyên thay đổi ý định",
+      "Thường bị lợi dụng"
+    ],
+    "image": "mbti_images/ENFP.svg",
+    "careers": [
+      "Marketing",
+      "Truyền thông",
+      "Sáng tạo nghệ thuật"
+    ]
+  },
+    "ENTJ": {
+        "name": "Executive - Nhà Điều Hành",
+        "description": "Tính cách ENTJ có sức hấp dẫn mạnh mẽ, sự sắc sảo và tư duy lý trí đáng ngưỡng mộ. Họ xuất sắc trong việc dẫn dắt, truyền cảm hứng cho người khác, có khoảng 3% dân số mang tính cách ENTJ. Một trong những phẩm chất quan trọng của họ là khả năng thuyết phục. Những đặc điểm này thường thúc đẩy ENTJ theo đuổi các ngành nghề cụ thể như luật sư, công nghệ thông tin và quản lý rủi ro.",
+        "overview": "Có khoảng 3% dân số mang tính cách này, ENTJ có cá tính rất lôi cuốn, lý trí và nhạy bén.\n\nENTJ là viết tắt của những chữ cái gì?\n●     E - Hướng ngoại: Đối với bạn, thế giới bên ngoài mới là thế giới thực. Trái ngược với tính cách I - Hướng nội luôn đắm mình trong thế giới nội tâm.\n\n●     N - Trực giác: Bạn tập trung vào ý nghĩa của sự vật, sự việc, khác với những người có tính cách S - Giác quan sử dụng cả năm giác quan thị giác, thính giác, khứu giác, vị giác, cảm giác để nhìn nhận và đánh giá.\n\n●     T - Lý trí: Bạn đưa ra quyết định dựa trên góc nhìn thực tế bằng số liệu và đo lường chính xác. Ngược lại, các F - Cảm xúc ưu tiên đưa ra quyết định dựa trên cảm nhận cá nhân.\n\n●     J - Nguyên tắc: Bạn dựa vào cấu trúc sẵn có để thoải mái đưa ra quan điểm mà không phải mất công suy xét nhiều. Trong khi đó, những người thiên về tính cách P - Linh hoạt lại thích môi trường tự do và họ sẽ tự sắp đặt quy tắc bên trong cho mình.",
+        "strengths": [
+            "Tự tin và quyết đoán",
+            "Giỏi lãnh đạo và truyền cảm hứng",
+            "Tư duy chiến lược và sáng tạo",
+            "Giỏi giao tiếp và thuyết phục"
+        ],
+        "weaknesses": [
+            "Thích kiểm soát",
+            "Khó chịu đựng sự thất bại",
+            "Hay mải mê với công việc",
+            "Thường xuyên bị căng thẳng"
+        ],
+        "image": "mbti_images/ENTJ.svg",
+        "careers": [
+            "Luật sư",
+            "Công nghệ thông tin",
+            "Quản lý rủi ro"
+        ]
+      },
+        "ENTP": {
+          "name": "The Inventor - Người Phát Minh",
+          "description": "Tính cách ENTP được miêu tả là có sự thông minh, khả năng giao tiếp rộng, tính sáng tạo, tinh thần linh hoạt và tinh thần tháo vát. Họ luôn xuất sắc trong việc tạo ra các giải pháp mới và độc đáo cho những vấn đề khó khăn mà thường không cần phải tuân theo kế hoạch cố định. Chỉ có 3% dân số sở hữu loại tính cách này, ENTP thường thách thức trí tuệ và vận dụng sự sáng tạo của mình trong lĩnh vực khoa học, kỹ thuật và giáo dục.",
+          "overview": "Những người thuộc nhóm tính cách ENTP nổi bật với tinh thần ham học hỏi và không ngừng tích lũy kiến thức, tìm kiếm giải pháp cho những vấn đề mang tính thách thức.\n\nENTP là viết tắt của những chữ cái gì?\n●    E - Hướng ngoại: Đối với bạn, thế giới bên ngoài mới là thế giới thực. Trái ngược với tính cách I - Hướng nội luôn đắm mình trong thế giới nội tâm.\n\n●    N - Trực giác: Bạn tập trung vào ý nghĩa của sự vật, sự việc, khác với những người có tính cách S - Giác quan sử dụng cả năm giác quan thị giác, thính giác, khứu giác, vị giác, cảm giác để nhìn nhận và đánh giá.\n\n●    T - Lý trí: Bạn đưa ra quyết định dựa trên góc nhìn thực tế bằng số liệu và đo lường chính xác. Ngược lại, các F - Cảm xúc ưu tiên đưa ra quyết định dựa trên cảm nhận cá nhân.\n\n●    P - Linh hoạt: Bạn thỏa thích vẫy vùng trong thế giới của riêng mình với những quy tắc ngầm được bạn tự tay sắp xếp. Trái lại, những người thuộc nhóm J - Nguyên tắc lại cảm thấy ổn khi được áp cho những luật lệ được sắp đặt sẵn.",
+          "strengths": [
+              "Tư duy sáng tạo và độc đáo",
+              "Giỏi giao tiếp và thuyết phục",
+              "Lòng ham học hỏi và khám phá",
+              "Giỏi giải quyết vấn đề"
+          ],
+          "weaknesses": [
+              "Hay mơ mộng",
+              "Thường xuyên thay đổi ý định",
+              "Khó tập trung",
+              "Hay tranh luận"
+          ],
+          "image": "mbti_images/ENTP.svg",
+          "careers": [
+              "Khoa học",
+              "Kỹ thuật",
+              "Giáo dục"
+          ]
+  },
+  "ESFJ": {
+    "name": "The Consul - Người Quan Tâm",
+    "description": "ESFJ thường có những đặc điểm tích cực như trung thành, chăm chỉ, tận tâm và tử tế. Họ thường thích làm việc trong môi trường hợp tác và có khả năng tương tác xã hội tốt. ESFJ thường có khả năng tận hưởng việc chăm sóc và giúp đỡ người khác, thường được xem là những người bạn đáng tin cậy và hỗ trợ trong các mối quan hệ. Nhóm tính cách này chiếm 12% dân số, cho thấy đây là một nhóm tương đối phổ biến.",
+    "overview": "3 tính cách đặc trưng của ESFJ là: Thực tế, vị tha và hòa đồng. Có khoảng 12% dân số mang tính cách này. Các ESFJ muốn được phục vụ người khác và họ rất nghiêm túc khi đưa ra các cam kết.\n\nESFJ là viết tắt của những chữ cái gì?\n●      E - Hướng ngoại: Đối với những người thuộc nhóm tính cách ESFJ, thế giới bên ngoài mới là thế giới thực. Trái ngược với tính cách I - Hướng nội luôn đắm mình trong thế giới nội tâm.\n\n●      S - Giác quan: Bạn tập trung vào những gì mình quan sát được bằng năm giác quan (thính giác, khứu giác, thị giác, vị giác, xúc giác). I - Trực giác sẽ được sử dụng để diễn giải ý nghĩa của sự vật, sự việc.\n\n●      F - Cảm xúc: Những người thuộc nhóm tính cách ESFJ đánh giá dựa trên cảm nhận cá nhân. Ngược lại, những người có T (Lý trí) trong tính cách thì đánh giá dựa trên số liệu thực và những dữ liệu đã được chứng minh.\n\n●      J - Nguyên tắc: Bạn dựa vào cấu trúc sẵn có để thoải mái đưa ra quan điểm mà không phải mất công suy xét nhiều. Trong khi đó, những người thiên về tính cách P - Linh hoạt lại thích môi trường tự do và họ sẽ tự sắp đặt cấu trúc bên trong cho mình.",
+    "strengths": [
+        "Thân thiện và hòa đồng",
+        "Giỏi giao tiếp và thấu hiểu người khác",
+        "Lòng trắc ẩn và vị tha",
+        "Tận tâm và trách nhiệm"
+    ],
+    "weaknesses": [
+        "Thích kiểm soát",
+        "Hay lo lắng",
+        "Dễ bị tổn thương",
+        "Không thích thay đổi"
+    ],
+    "image": "mbti_images/ESFJ.svg",
+    "careers": [
+        "Tổ chức sự kiện",
+        "Quản lý nhân sự",
+        "Chăm sóc sức khỏe"
+    ]
+  },
+  "ESFP": {
+    "name": "The Performer - Người Trình Diễn",
+    "description": "Những người ESFP mang tinh thần thực tế, mặc dù họ không thích sự rập khuôn và sự lặp đi lặp lại. ESFP tin tưởng vào khả năng ứng biến của mình trong mọi tình huống, nhóm tính cách này chiếm 7.5% dân số. Họ nhận thấy rằng cách học hỏi tốt nhất là học từ kinh nghiệm thực tế hơn là học trong sách vở, họ cảm thấy khó chịu với lý thuyết.",
+    "overview": "ESFP  là nhóm tính cách tích cực và lạc quan nhất, có khoảng 7.5% dân số mang tính cách này.\n\nESFP là viết tắt của những chữ cái gì?\n●      E - Hướng ngoại: Đối với bạn, thế giới bên ngoài mới là thế giới thực. Trái ngược với tính cách I - Hướng nội luôn đắm mình trong thế giới nội tâm.\n\n●      S - Giác quan: Bạn tập trung vào những gì mình quan sát được bằng năm giác quan (thính giác, khứu giác, thị giác, vị giác, xúc giác)\n\n●      F - Cảm xúc: Bạn đưa ra quyết định chủ yếu dựa trên cảm xúc. Ngược lại, những người có tính cách T - Lý trí lại đưa ra quyết định dựa vào số liệu và đo lường chính xác.\n\n●      P - Linh hoạt: Bạn thỏa thích vẫy vùng trong thế giới của riêng mình với những quy tắc ngầm được bạn tự tay sắp xếp. Trái lại, những người thuộc nhóm J - Nguyên tắc lại cảm thấy ổn khi được áp cho những luật lệ được sắp đặt sẵn.",
+    "strengths": [
+        "Nhiệt tình và vui vẻ",
+        "Giỏi giao tiếp và thấu hiểu người khác",
+        "Lòng trắc ẩn và vị tha",
+        "Sáng tạo và đổi mới"
+    ],
+    "weaknesses": [
+        "Thường xuyên thay đổi ý định",
+        "Khó tập trung",
+        "Dễ bị tổn thương",
+        "Không thích kế hoạch"
+    ],
+    "image": "mbti_images/ESFP.svg",
+    "careers": [
+        "Quan hệ công chúng",
+        "Kiến trúc cảnh quan",
+        "Giáo viên đặc biệt"
+    ]
+  },
+  "ESTJ": {
+    "name": "The Supervisors - Người Giám Sát",
+    "description": "ESTJ dựa vào thông tin khách quan và logic để đưa ra quyết định hơn là cảm xúc cá nhân. Họ sở hữu khả năng đưa ra quyết định một cách minh bạch và công bằng, thường tiếp cận với góc độ thực tế và ưa thích làm việc với những thông tin cụ thể hơn là những ý tưởng trừu tượng hoặc lý thuyết. Nhóm tính cách này chiếm 11.5% dân số, cho thấy đây là một nhóm tương đối phổ biến.",
+    "overview": "ESTJ yêu thích những giá trị truyền thống, thượng tôn pháp luật, luôn làm việc dựa trên lý thuyết thực tiễn và logic. Trong công việc, ESTJ là nhóm tính cách có phương pháp xử lý công việc nhanh và hiệu quả nhất.\n\nESTJ là viết tắt của những chữ cái gì?\n●      E - Hướng ngoại: Đối với những người mang tính cách ESTJ, thế giới bên ngoài mới là thế giới thực. Trái ngược với tính cách I - Hướng nội luôn đắm mình trong thế giới nội tâm.\n\n●      S - Giác quan: Các ESTJ tập trung vào những gì mình quan sát được bằng năm giác quan (thính giác, khứu giác, thị giác, vị giác, xúc giác).\n\n●      T - Lý trí: Bạn đưa ra quyết định dựa trên góc nhìn thực tế bằng số liệu và đo lường chính xác. Ngược lại, các F - Cảm xúc ưu tiên đưa ra quyết định dựa trên cảm nhận cá nhân.\n\n●      J - Nguyên tắc: Bạn dựa vào cấu trúc sẵn có để thoải mái đưa ra quan điểm mà không phải mất công suy xét nhiều. Trong khi đó, những người thiên về tính cách P - Linh hoạt lại thích môi trường tự do và họ sẽ tự sắp đặt quy tắc bên trong cho mình.",
+    "strengths": [
+        "Tự tin và quyết đoán",
+        "Giỏi tổ chức và quản lý",
+        "Làm việc chăm chỉ và hiệu quả",
+        "Giỏi giao tiếp và thuyết phục"
+    ],
+    "weaknesses": [
+        "Cứng nhắc và kiểm soát",
+        "Ít linh hoạt và thích nghi",
+        "Không thích rủi ro",
+        "Thường xuyên phê bình"
+    ],
+    "image": "mbti_images/ESTJ.svg",
+    "careers": [
+        "Quản trị kinh doanh",
+        "Luật sư",
+        "Tài chính - kế toán"
+    ]
+  },
+      "ESTP": {
+          "name": "The Promoter - Người Đề Xướng",
+          "description": "Chỉ với 4% dân số sở hữu tính cách ESTP, họ mang đến cho thế giới sự năng động, nhiệt tình và những quan điểm độc đáo. Các cá nhân thuộc kiểu tính cách ESTP thường thể hiện hướng đến tập thể, thích sự ngẫu hứng và thẳng thắn trong giao tiếp. Mặc dù đôi khi họ có thể bị xem là cục cằn hoặc liều lĩnh, nhưng những người ESTP thực sự đam mê hành động và luôn đi thẳng vào trọng tâm vấn đề.",
+          "overview": "Là những cá nhân năng động là hoạt bát, các ESTP  rất yêu những hoạt động thể chất. Điều đó cũng được thể hiện rất rõ trong việc giải quyết vấn đề một cách dứt khoát và nhanh chóng của họ. Những Người thực thi luôn mang trong mình tinh thần lạc quan bất diệt, “always look on the bright side”.\n\nESTP là viết tắt của những chữ cái gì?\n●    E - Hướng ngoại: Đối với những người thuộc nhóm tính cách ESTP, thế giới bên ngoài mới là thế giới thực. Trái ngược với tính cách I - Hướng nội luôn đắm mình trong thế giới nội tâm.\n\n●    S - Giác quan: Các ESTP tập trung vào những gì mình quan sát được bằng năm giác quan (thính giác, khứu giác, thị giác, vị giác, xúc giác). I - Trực giác sẽ được sử dụng để diễn giải ý nghĩa của sự vật, sự việc.\n\n●    T - Lý trí: Bạn đưa ra quyết định dựa trên góc nhìn thực tế bằng số liệu và đo lường chính xác. Ngược lại, các F - Cảm xúc ưu tiên đưa ra quyết định dựa trên cảm nhận cá nhân.\n\n●    P - Linh hoạt: Bạn thỏa thích vẫy vùng trong thế giới của riêng mình với những quy tắc ngầm được bạn tự tay sắp xếp. Trái lại, những người thuộc nhóm J - Nguyên tắc lại cảm thấy ổn khi được áp cho những luật lệ được sắp đặt sẵn.",
+          "strengths": [
+              "Hấp dẫn và lôi cuốn",
+              "Tự tin và quyết đoán",
+              "Thích phiêu lưu và mạo hiểm",
+              "Giỏi giao tiếp và thuyết phục"
+          ],
+          "weaknesses": [
+              "Không có tổ chức và kế hoạch",
+              "Hay trì hoãn",
+              "Thiếu kiên nhẫn",
+              "Hay thay đổi ý định"
+          ],
+          "image": "mbti_images/ESTP.svg",
+          "careers": [
+              "Kinh doanh",
+              "Marketing",
+              "Tư vấn"
+          ]
+  },
+ "INFJ": {
+        "name": "The Protector - Người Bảo vệ",
+        "description": "Có rất ít người mang tính cách này, chỉ chiếm khoảng 1% dân số và họ mang trong mình khá nhiều đặc điểm thú vị. INFJ thường thể hiện sự đam mê giúp đỡ người khác và là những người lắng nghe tốt. Họ có cái nhìn sâu sắc về cuộc sống và tôn trọng ý kiến của người khác. Hướng nội và sáng tạo giúp họ tập trung vào ý nghĩa sâu sắc và khám phá những khía cạnh ẩn sau sự kiện.",
+        "overview": "INFJ là những người có tư duy sâu sắc và vô cùng nhạy bén trong việc nắm bắt tâm lý của người khác. Họ sở hữu lòng trắc ẩn vĩ đại, tràn đầy khát vọng mãnh liệt về một thế giới tốt đẹp hơn. Chính vì vậy, các INFJ luôn đặt tâm huyết vào việc xây dựng mối quan hệ, coi việc giúp đỡ, động viên người khác như một phần không thể thiếu trong cuộc sống.\n\nINFJ là viết tắt của những chữ cái gì?\n●    I - Hướng nội: Đối với những người thuộc nhóm tính cách INFJ, thế giới ẩn sâu bên trong mỗi chúng ta mới là thế giới thật. Ngược lại, thế giới bên ngoài là nơi thuộc về những người E - Hướng ngoại.\n\n●    N - Trực giác: Bạn tập trung vào ý nghĩa của sự vật, sự việc, khác với những người có tính cách S - Giác quan sử dụng cả năm giác quan thị giác, thính giác, khứu giác, vị giác, cảm giác để nhìn nhận và đánh giá.\n\n●    F - Cảm xúc: Bạn đưa ra quyết định chủ yếu dựa trên cảm nhận cá nhân. Ngược lại, những người có tính cách T - Lý trí lại đưa ra quyết định dựa vào số liệu và đo lường chính xác.\n\n●    J - Nguyên tắc: Bạn dựa vào cấu trúc sẵn có để thoải mái đưa ra quan điểm mà không phải mất công suy xét nhiều. Trong khi đó, những người thiên về tính cách P - Linh hoạt lại thích môi trường tự do và họ sẽ tự sắp đặt quy tắc bên trong cho mình.",
+        "strengths": [
+            "Trực giác và thấu hiểu",
+            "Lòng trắc ẩn và vị tha",
+            "Sáng tạo và đổi mới",
+            "Giỏi giao tiếp và thuyết phục"
+        ],
+        "weaknesses": [
+            "Kín đáo và khó gần",
+            "Thường xuyên suy nghĩ quá nhiều",
+            "Hay bị tổn thương",
+            "Khó ra quyết định"
+        ],
+        "image": "mbti_images/INFJ.svg",
+        "careers": [
+            "Tâm lý học",
+            "Giáo dục",
+            "Văn học"
+        ]
+  },
+  "INFP": {
+    "name": "The Mediator - Người Hòa Giải",
+    "description": "Nhóm tính cách INFP chiếm 8% dân số, được cho là những người nhạy cảm, tư duy sáng tạo và tận hưởng sự tự do cá nhân. Họ thường có giá trị đạo đức cao, quan tâm đến người khác và có ý thức xã hội. INFP thường đặt mục tiêu cao về việc tạo dựng ý nghĩa trong cuộc sống và thường có sự tận tụy trong việc theo đuổi giấc mơ và giá trị cá nhân của mình.",
+    "overview": "Các INFP khá điềm tĩnh, thậm chí có phần nhút nhát và cả nể, rất ngại từ chối người khác. Tuy vậy, ẩn sâu bên trong họ là một tâm hồn nồng nhiệt và đam mê bất diệt. Các INFP sống có lý tưởng, có mục đích, họ biết mình cần gì, muốn gì và nên làm gì. Chủ nghĩa cá nhân cũng là một đặc điểm nổi bật ở những người thuộc nhóm tính cách INFP.\n\nINFP là viết tắt của những chữ cái gì?\n●    I - Hướng nội: Đối với những người thuộc nhóm tính cách INFP, thế giới ẩn sâu bên trong mỗi chúng ta mới là thế giới thật. Ngược lại, thế giới bên ngoài là nơi thuộc về những người E - Hướng ngoại.\n\n●    N - Trực giác: Bạn tập trung vào ý nghĩa của sự vật, sự việc, khác với những người có tính cách S - Giác quan sử dụng cả năm giác quan thị giác, thính giác, khứu giác, vị giác, cảm giác để nhìn nhận và đánh giá.\n\n●    F - Cảm xúc: Bạn đưa ra quyết định chủ yếu dựa trên cảm nhận cá nhân. Ngược lại, những người có tính cách T - Lý trí lại đưa ra quyết định dựa vào số liệu và đo lường chính xác.\n\n●    P - Linh hoạt: Bạn thỏa thích vẫy vùng trong thế giới của riêng mình với những quy tắc ngầm được bạn tự tay sắp xếp. Trái lại, những người thuộc nhóm J - Nguyên tắc lại cảm thấy ổn khi được áp cho những luật lệ được sắp đặt sẵn.",
+    "strengths": [
+        "Tinh thần sáng tạo và nghệ thuật",
+        "Lòng trắc ẩn và vị tha",
+        "Trung thành và tận tụy",
+        "Giỏi giao tiếp và thuyết phục"
+    ],
+    "weaknesses": [
+        "Mơ mộng và xa rời thực tế",
+        "Hay bị tổn thương",
+        "Khó ra quyết định",
+        "Hay lo lắng"
+    ],
+    "image": "mbti_images/INFP.svg",
+    "careers": [
+        "Viết lách",
+        "Thiết kế UI/UX",
+        "Nhân sự"
+    ]
+  },
+  "INTJ": {
+        "name": "The Analyst - Người Phân Tích",
+        "description": "Tính cách của người mang tính INTJ cũng có sự kết hợp độc đáo giữa tính quyết đoán và khả năng trí tưởng tượng sống động. Họ có thể xây dựng một kế hoạch xuất sắc và thực hiện nó hiệu quả, giống như một bàn cờ chiến lược do họ dẫn dắt. Tư duy logic và cái nhìn toàn cảnh là điểm mạnh nổi bật.",
+        "overview": "INTJ được xem là nhóm tính cách bí ẩn và thông minh nhất. Họ thường đóng vai trò “chìa khóa” giải quyết vấn đề trong những tình huống hóc búa. Tinh thần lạc quan, luôn nhìn vào mặt tích cực khiến các INTJ có thể nhìn ra điểm sáng ngay cả trong những tình cảnh “éo le” nhất. Những người thuộc nhóm tính cách INTJ có tinh thần học hỏi cao, không ngừng khai phá những giới hạn mới của bản thân để tạo ra sự đổi mới tích cực cho môi trường xung quanh.\n\nINTJ là viết tắt của những chữ cái gì?\n●    I - Hướng nội: Đối với những người thuộc nhóm tính cách INTJ, thế giới ẩn sâu bên trong mỗi chúng ta mới là thế giới thật. Ngược lại, thế giới bên ngoài là nơi thuộc về những người E - Hướng ngoại.\n\n●    N - Trực giác: Bạn tập trung vào ý nghĩa của sự vật, sự việc, khác với những người có tính cách S - Giác quan sử dụng cả năm giác quan thị giác, thính giác, khứu giác, vị giác, cảm giác để nhìn nhận và đánh giá.\n\n●    T - Lý trí: Bạn đưa ra quyết định dựa trên góc nhìn thực tế bằng số liệu và đo lường chính xác. Ngược lại, các F - Cảm xúc ưu tiên đưa ra quyết định dựa trên cảm nhận cá nhân.\n\n●    J - Nguyên tắc: Bạn dựa vào cấu trúc sẵn có để thoải mái đưa ra quan điểm mà không phải mất công suy xét nhiều. Trong khi đó, những người thiên về tính cách P - Linh hoạt lại thích môi trường tự do và họ sẽ tự sắp đặt quy tắc bên trong cho mình.",
+        "strengths": [
+            "Tư duy logic và sáng tạo",
+            "Tự tin và quyết đoán",
+            "Tập trung và có mục tiêu rõ ràng",
+            "Giỏi giao tiếp và thuyết phục"
+        ],
+        "weaknesses": [
+            "Cứng nhắc và thiếu linh hoạt",
+            "Kín đáo và khó gần",
+            "Hay lo lắng và căng thẳng",
+            "Thường xuyên phê bình"
+        ],
+        "image": "mbti_images/INTJ.svg",
+        "careers": ["Phân tích hệ thống", "Tư vấn chiến lược", "Khoa học dữ liệu"]
+  },
+  "INTP": {
+    "name": "The Logician - Nhà Logic Học",
+    "description": "INTP là những người hướng nội, giàu tư duy logic, thích khám phá thế giới ý tưởng sâu sắc. Họ thường tìm kiếm sự kết nối giữa các thông tin và nhìn xa trông rộng, thích ở một mình để nghiền ngẫm và phát triển các hệ thống ý tưởng sáng tạo.",
+    "overview": "INTP là những người yêu thích tìm tòi về thế giới xung quanh, về nhân sinh và vũ trụ. Giống với nhóm ISTP, các INTP cũng đánh giá sự vật sự việc và ra quyết định dựa trên tư duy logic thay vì cảm xúc hay ý kiến chủ quan. Những Nhà tư duy có khả năng tập trung cao độ và thích một mình tìm tòi về thế giới, họ muốn hoàn thiện bản thân ở tất cả những lĩnh vực mà mình yêu thích.\n\nINTP là viết tắt của những chữ cái gì?\n●    I - Hướng nội: Đối với những người thuộc nhóm tính cách INTP, thế giới ẩn sâu bên trong mỗi chúng ta mới là thế giới thật. Ngược lại, thế giới bên ngoài là nơi thuộc về những người E - Hướng ngoại.\n\n●    N - Trực giác: Bạn tập trung vào ý nghĩa của sự vật, sự việc, khác với những người có tính cách S - Giác quan sử dụng cả năm giác quan thị giác, thính giác, khứu giác, vị giác, cảm giác để nhìn nhận và đánh giá.\n\n●    T - Lý trí: Bạn đưa ra quyết định dựa trên góc nhìn thực tế bằng số liệu và đo lường chính xác. Ngược lại, các F - Tình cảm ưu tiên đưa ra quyết định dựa trên cảm nhận cá nhân.\n\n●    P - Linh hoạt: Bạn thỏa thích vẫy vùng trong thế giới của riêng mình với những quy tắc ngầm được bạn tự tay sắp xếp. Trái lại, những người thuộc nhóm J - Nguyên tắc lại cảm thấy ổn khi được áp cho những luật lệ được sắp đặt sẵn.",
+    "strengths": [
+        "Tư duy logic và sáng tạo",
+        "Tò mò và ham học hỏi",
+        "Tự tin và độc lập",
+        "Có khả năng lãnh đạo"
+    ],
+    "weaknesses": [
+        "Kín đáo và khó gần",
+        "Hay trì hoãn",
+        "Không giỏi giao tiếp",
+        "Thường xuyên phê bình"
+    ],
+    "image": "mbti_images/INTP.svg",
+    "careers": ["Lập trình viên", "Phân tích dữ liệu", "Giáo sư"]
+  },
+ "ISFJ": {
+        "name": "The Nurturer - Người Nuôi Dưỡng",
+        "description": "ISFJ là những người giàu lòng vị tha và ấm áp. Họ sống có trách nhiệm và luôn quan tâm sâu sắc đến những người xung quanh. Tính cách chu đáo, trung thành và kiên định giúp họ trở thành người bạn, người đồng nghiệp đáng tin cậy.",
+        "overview": "Trong tất cả các loại tính cách thì ISFJ (Người nuôi dưỡng) là loại tính cách có lòng vị tha nhất, sẵn sàng hy sinh lợi ích của bản thân vì người khác. Các ISFJ cũng là những người rất trung thành với các quy định và nguyên tắc của mình.\n\nISFJ là viết tắt của những chữ cái gì?\n●    I - Hướng nội: Đối với những người thuộc nhóm tính cách ISFJ, thế giới ẩn sâu bên trong mỗi chúng ta mới là thế giới thật. Ngược lại, thế giới bên ngoài là nơi thuộc về những người E - Hướng ngoại.\n\n●    S - Giác quan: Bạn tập trung vào những gì mình quan sát được bằng năm giác quan (thính giác, khứu giác, thị giác, vị giác, xúc giác). I - Trực giác sẽ được sử dụng để diễn giải ý nghĩa của sự vật, sự việc.\n\n●    F - Cảm xúc: Những người thuộc nhóm tính cách ISFJ đánh giá dựa trên cảm nhận cá nhân. Ngược lại, những người có T (Lý trí) trong tính cách thì đánh giá dựa trên số liệu thực và những dữ liệu đã được chứng minh.\n\n●    J - Nguyên tắc: Bạn dựa vào cấu trúc sẵn có để thoải mái đưa ra quan điểm mà không phải mất công suy xét nhiều. Trong khi đó, những người thiên về tính cách P - Linh hoạt lại thích môi trường tự do và họ sẽ tự sắp đặt cấu trúc bên trong cho mình.",
+        "strengths": [
+            "Tận tâm và chu đáo",
+            "Lòng trắc ẩn và vị tha",
+            "Trung thành và đáng tin cậy",
+            "Giỏi giao tiếp và thuyết phục"
+        ],
+        "weaknesses": [
+            "Có thể quá lo lắng",
+            "Khó nói không",
+            "Thiếu quyết đoán",
+            "Dành nhiều thời gian để suy nghĩ về một vấn đề"
+        ],
+        "image": "mbti_images/ISFJ.svg",
+        "careers": ["Giáo viên", "Y tá", "Chuyên viên hỗ trợ cộng đồng"]
+  },
+ "ISFP": {
+        "name": "The Artist - Người Nghệ Sĩ",
+        "description": "ISFP là người sống cảm xúc và yêu thích nghệ thuật. Họ có khả năng sáng tạo cao, tính thẩm mỹ tinh tế và mong muốn thể hiện bản thân qua những trải nghiệm đầy cảm xúc. Dù khiêm tốn, họ vẫn luôn tạo ra giá trị riêng biệt trong môi trường làm việc.",
+        "overview": "Ẩn dưới vẻ ngoài trầm lặng, ISFP (Người nghệ sĩ) sở hữu một trái tim tràn đầy nhiệt huyết của người nghệ sĩ. Họ vừa hướng nội vừa hướng ngoại, dễ vui dễ buồn, khó đoán và tự phát. ISFP cũng là người yêu tự do và đam mê trải nghiệm, biết lắng nghe và quan tâm đến những người xung quanh.\n\nISFP là viết tắt của những chữ cái gì?\n●    I - Hướng nội: Đối với những người thuộc nhóm tính cách ISFP, thế giới ẩn sâu bên trong mỗi chúng ta mới là thế giới thật. Ngược lại, thế giới bên ngoài là nơi thuộc về những người E - Hướng ngoại.\n\n●    S - Giác quan: Bạn tập trung vào những gì mình quan sát được bằng năm giác quan (thính giác, khứu giác, thị giác, vị giác, xúc giác). I - Trực giác sẽ được sử dụng để diễn giải ý nghĩa của sự vật, sự việc.\n\n●    F - Cảm xúc: Bạn đưa ra quyết định chủ yếu dựa trên cảm nhận cá nhân. Ngược lại, những người có tính cách T - Lý trí lại đưa ra quyết định dựa vào số liệu và đo lường chính xác.\n\n●    P - Linh hoạt: Bạn thỏa thích vẫy vùng trong thế giới của riêng mình với những quy tắc ngầm được bạn tự tay sắp xếp. Trái lại, những người thuộc nhóm J - Nguyên tắc lại cảm thấy ổn khi được áp cho những luật lệ được sắp đặt sẵn.",
+        "strengths": [
+            "Thẩm mỹ và nghệ thuật",
+            "Lòng trắc ẩn và vị tha",
+            "Tự do và độc lập",
+            "Giỏi giao tiếp và thuyết phục"
+        ],
+        "weaknesses": [
+            "Có thể quá mơ mộng",
+            "Hay bị tổn thương",
+            "Thiếu quyết đoán",
+            "Làm việc độc lập, khó tuân theo những quy tắc"
+        ],
+        "image": "mbti_images/ISFP.svg",
+        "careers": ["Thiết kế đồ họa", "Nghệ thuật biểu diễn", "Chăm sóc sức khỏe"]
+  },
+"ISTJ": {
+        "name": "The Guardian - Người giám hộ",
+        "description": "ISTJ là tính cách đại diện cho sự trung thực, đây là tính cách khá phổ biến chiếm 13% dân số trên thế giới thuộc tính cách này. ISTJ là một loại tính cách hướng nội và tổ chức. Những người mang tính cách này thường tập trung vào công việc, đảm bảo hoàn thành nhiệm vụ một cách hiệu quả. Họ ấm áp và tận tâm đối với gia đình và bạn bè. Tuy nhiên, ISTJ gặp khó thích nghi với thay đổi và mở lòng với ý kiến mới. Nhờ những đặc điểm này, đã hình thành nên một tính cách ISTJ đầy thú vị.",
+        "overview": "ISTJ  là những người cần mẫn và có trách nhiệm, một khi đã cam kết thì họ sẽ cố gắng làm cho đến cùng. Logic, thành thật và có nguyên tắc là ba đặc điểm nổi trội nhất chúng ta có thể bắt gặp ở các ISTJ. Trong đời sống thường nhật, ISTJ thường là tuýp người hướng nội nhưng họ sẵn sàng cho bạn những lời khuyên hữu ích khi bạn cần đến họ.\n\nISTJ là viết tắt của những chữ cái gì?\n●    I - Hướng nội: Đối với những người thuộc nhóm tính cách ISTJ, thế giới ẩn sâu bên trong mỗi chúng ta mới là thế giới thật. Ngược lại, thế giới bên ngoài là nơi thuộc về những người E - Hướng ngoại.\n\n●    S - Giác quan: Bạn tập trung vào những gì mình quan sát được bằng năm giác quan (thính giác, khứu giác, thị giác, vị giác, xúc giác). I - Trực giác sẽ được sử dụng để diễn giải ý nghĩa của sự vật, sự việc.\n\n●    T - Lý trí: Bạn đưa ra quyết định dựa trên góc nhìn thực tế bằng số liệu và đo lường chính xác. Ngược lại, các F - Cảm xúc ưu tiên đưa ra quyết định dựa trên cảm nhận cá nhân.\n\n●    J - Nguyên tắc: Bạn dựa vào cấu trúc sẵn có để thoải mái đưa ra quan điểm mà không phải mất công suy xét nhiều. Trong khi đó, những người thiên về tính cách P - Linh hoạt lại thích môi trường tự do và họ sẽ tự sắp đặt quy tắc bên trong cho mình.",
+        "strengths": [
+            "Tận tâm và chu đáo",
+            "Lòng trắc ẩn và vị tha",
+            "Trung thành và đáng tin cậy",
+            "Giỏi tổ chức và quản lý"
+        ],
+        "weaknesses": [
+            "Thiếu linh hoạt",
+            "Có thể quá cứng nhắc",
+            "Thường xuyên trì hoãn",
+            "Hay lo lắng"
+        ],
+        "image": "mbti_images/ISTJ.svg",
+        "careers": [
+            "Quản lý dữ liệu",
+            "Phân tích tài chính",
+            "Ngành luật",
+            "Kỹ thuật viên",
+            "Lập trình viên"
+        ]
+  },
+  "ISTP": {
+    "name": "The Crafter - Thợ Thủ Công",
+    "description": "Công bằng và bình đẳng là hai quan điểm quan trọng đối với tính cách ISTP. Có khoảng 5% dân số thế giới mang tính cách này. Họ linh hoạt trong việc thay đổi và hay có xu hướng phá vỡ các nguyên tắc hiện có để thể hiện quan điểm cá nhân. Điều này đồng nghĩa với việc họ sẽ không chấp nhận môi trường nơi nguyên tắc của họ bị coi thường.",
+    "overview": "ISTP là nhóm tính cách tôn thờ sự logic. Họ dành nhiều thời gian để quan sát và đánh giá mọi vật mọi việc dựa trên bằng chứng và lý lẽ, kể cả trong chuyện tình cảm. ISTP cũng là tuýp người thiên về trường phái “làm nhiều hơn nói”, có khả năng ứng phó với những tình huống bất ngờ và xử lý khủng hoảng một cách xuất sắc.\n\nISTP là viết tắt của những chữ cái gì?\n●      I - Hướng nội: Đối với những người thuộc nhóm tính cách ISTP, thế giới ẩn sâu bên trong mỗi chúng ta mới là thế giới thật. Ngược lại, thế giới bên ngoài là nơi thuộc về những người E - Hướng ngoại.\n\n●      S - Giác quan: Bạn tập trung vào những gì mình quan sát được bằng năm giác quan (thính giác, khứu giác, thị giác, vị giác, xúc giác). I - Trực giác sẽ được sử dụng để diễn giải ý nghĩa của sự vật, sự việc.\n\n●      T - Lý trí: Bạn đưa ra quyết định dựa trên góc nhìn thực tế bằng số liệu và đo lường chính xác. Ngược lại, các F - Cảm xúc ưu tiên đưa ra quyết định dựa trên cảm nhận cá nhân.\n\n●      P - Linh hoạt: Bạn thỏa thích vẫy vùng trong thế giới của riêng mình với những quy tắc ngầm được bạn tự tay sắp xếp. Trái lại, những người thuộc nhóm J - Nguyên tắc lại cảm thấy ổn khi được áp cho những luật lệ được sắp đặt sẵn.",
+    "strengths": [
+        "Trực quan và thực tế",
+        "Tự tin và độc lập",
+        "Khả năng giải quyết vấn đề cao",
+        "Thích thử thách và mạo hiểm"
+    ],
+    "weaknesses": [
+        "Có thể thiếu kiên nhẫn",
+        "Khó mở lòng với người khác",
+        "Hay trì hoãn",
+        "Có thể quá cứng nhắc"
+    ],
+    "image": "mbti_images/ISTP.svg",
+    "careers": [
+        "Kỹ sư cơ khí",
+        "Chuyên viên kỹ thuật",
+        "Quản lý sản xuất",
+        "Kỹ thuật viên phần cứng",
+        "Thợ máy chuyên nghiệp"
+    ]
+  }
+}

@@ -1,0 +1,331 @@
+<<<<<<< HEAD
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #0f9d58, #1abc9c);
+    color: #fff;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 60px 20px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  
+  .bot-icon {
+    height: 60px;
+    margin: 10px auto;
+  }
+  
+  .btn-start {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 32px;
+    font-size: 18px;
+    background: #00e676;
+    color: #004d40;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-start:hover {
+    background: #00c853;
+  }
+  
+  .carousel-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    background: #f7f7f7;
+    color: #333;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .card {
+    display: inline-block;
+    background: white;
+    border-radius: 12px;
+    width: 260px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+  
+  .card img {
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 12px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #007f5f, #00b894);
+    color: #fff;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 80px 20px 40px;
+  }
+  
+  .hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  .emoji-icon {
+    width: 32px;
+    vertical-align: middle;
+  }
+  
+  .btn-start {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #00e676;
+    color: #004d40;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-start:hover {
+    background: #00c853;
+  }
+  
+  .carousel-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 30px 15px;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    display: inline-block;
+    width: 280px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .carousel-card.intj  { background: linear-gradient(156deg, #B8E4FF -6.57%, #FFF3E7 108.38%); }
+.carousel-card.intp  { background: linear-gradient(156deg, #D7D5FF -6.57%, #FFF3E7 108.38%); }
+.carousel-card.entj  { background: linear-gradient(156deg, #C0E2FF -6.57%, #FFF3E7 108.38%); }
+.carousel-card.entp  { background: linear-gradient(156deg, #E0F0FF -6.57%, #FFF3E7 108.38%); }
+.carousel-card.infj  { background: linear-gradient(156deg, #FFF3B8 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.infp  { background: linear-gradient(156deg, #FFDFBA -6.57%, #FFF3E7 108.38%); }
+.carousel-card.enfj  { background: linear-gradient(156deg, #FFDBF3 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.enfp  { background: linear-gradient(156deg, #C7FFE0 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.istj  { background: linear-gradient(156deg, #D9FFF7 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.isfj  { background: linear-gradient(156deg, #FFD6D6 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.estj  { background: linear-gradient(156deg, #F2F2F2 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.esfj  { background: linear-gradient(156deg, #E5FFD9 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.istp  { background: linear-gradient(156deg, #CCFFD6 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.isfp  { background: linear-gradient(156deg, #B9E1FF -6.57%, #FFF3E7 108.38%); }
+.carousel-card.estp  { background: linear-gradient(156deg, #FFE6DC -6.57%, #FFF3E7 108.38%); }
+.carousel-card.esfp  { background: linear-gradient(156deg, #FFD1E3 -6.57%, #FFF3E7 108.38%); }
+=======
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #0f9d58, #1abc9c);
+    color: #fff;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 60px 20px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  
+  .bot-icon {
+    height: 60px;
+    margin: 10px auto;
+  }
+  
+  .btn-start {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 32px;
+    font-size: 18px;
+    background: #00e676;
+    color: #004d40;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-start:hover {
+    background: #00c853;
+  }
+  
+  .carousel-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 20px;
+    background: #f7f7f7;
+    color: #333;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .card {
+    display: inline-block;
+    background: white;
+    border-radius: 12px;
+    width: 260px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+  
+  .card img {
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 12px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #007f5f, #00b894);
+    color: #fff;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 80px 20px 40px;
+  }
+  
+  .hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  .emoji-icon {
+    width: 32px;
+    vertical-align: middle;
+  }
+  
+  .btn-start {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #00e676;
+    color: #004d40;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-start:hover {
+    background: #00c853;
+  }
+  
+  .carousel-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 30px 15px;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .carousel {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    display: inline-block;
+    width: 280px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+    text-align: center;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .carousel-card.intj  { background: linear-gradient(156deg, #B8E4FF -6.57%, #FFF3E7 108.38%); }
+.carousel-card.intp  { background: linear-gradient(156deg, #D7D5FF -6.57%, #FFF3E7 108.38%); }
+.carousel-card.entj  { background: linear-gradient(156deg, #C0E2FF -6.57%, #FFF3E7 108.38%); }
+.carousel-card.entp  { background: linear-gradient(156deg, #E0F0FF -6.57%, #FFF3E7 108.38%); }
+.carousel-card.infj  { background: linear-gradient(156deg, #FFF3B8 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.infp  { background: linear-gradient(156deg, #FFDFBA -6.57%, #FFF3E7 108.38%); }
+.carousel-card.enfj  { background: linear-gradient(156deg, #FFDBF3 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.enfp  { background: linear-gradient(156deg, #C7FFE0 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.istj  { background: linear-gradient(156deg, #D9FFF7 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.isfj  { background: linear-gradient(156deg, #FFD6D6 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.estj  { background: linear-gradient(156deg, #F2F2F2 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.esfj  { background: linear-gradient(156deg, #E5FFD9 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.istp  { background: linear-gradient(156deg, #CCFFD6 -6.57%, #FFF3E7 108.38%); }
+.carousel-card.isfp  { background: linear-gradient(156deg, #B9E1FF -6.57%, #FFF3E7 108.38%); }
+.carousel-card.estp  { background: linear-gradient(156deg, #FFE6DC -6.57%, #FFF3E7 108.38%); }
+.carousel-card.esfp  { background: linear-gradient(156deg, #FFD1E3 -6.57%, #FFF3E7 108.38%); }
+>>>>>>> b78728a (Update MBTI pages and chatbot logic)
