@@ -33,44 +33,6 @@ def write_to_db(user_query, bot_response):
     cur.close()
     conn.close()
 
-# Lấy 5 lượt gần nhất và tìm ngành/trường
-def get_memory_summary():
-    conn = psycopg2.connect(
-        dbname="postgres",
-        user="postgres.kwvpgdmmvilfzjikrplm",
-        password="Tiendat2703",
-        host="aws-0-ap-southeast-1.pooler.supabase.com",
-        port=6543
-    )
-    cur = conn.cursor()
-    cur.execute("SELECT memory, memory_bot FROM memory ORDER BY created_at DESC LIMIT 2")
-    rows = cur.fetchall()
-    cur.close()
-    conn.close()
-
-    memory_lines = [row[0].lower() for row in rows]
-    bot_lines = [row[1].lower() for row in rows]
-
-    majors = ["công nghệ thông tin", "cntt", "kế toán", "khoa học dữ liệu", "kinh tế"]
-    schools = [
-        "trường đại học ngoại ngữ đà nẵng", "khoa giáo dục thể chất",
-        "khoa công nghệ thông tin và truyền thông", "phân hiệu đại học đà nẵng tại kon tum",
-        "trường đại học sư phạm", "viện nghiên cứu và đào tạo việt- anh",
-        "khoa y dược", "trường y dược", "trường đại học sư phạm kỹ thuật",
-        "đại học kinh tế đà nẵng", "đại học bách khoa đà nẵng",
-        "đại học ngoại thương (tp.hcm)", "đại học ngoại thương (hà nội)",
-        "đại học công nghệ tp.hcm", "đại học quốc tế - đhqg tp.hcm",
-        "đại học kinh tế đà nẵng quốc dân", "học viện ngân hàng",
-        "đại học thương mại", "đại học kinh tế đà nẵng tp.hcm",
-        "đại học công nghệ - đhqg hà nội", "đại học tài chính - marketing",
-        "trường đại học nghệ thông tin và truyền thông việt - hàn"
-    ]
-    recent_major = next((m.title() for line in memory_lines for m in majors if m in line), "")
-    recent_school = next((s.title() for line in memory_lines for s in schools if s in line), "")
-
-    memory = '\n'.join([f'Human: {r[0]}' for r in rows])
-    bot = '\n'.join([f'AI: {r[1]}' for r in rows])
-    return memory, bot, recent_major, recent_school
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(BASE_DIR, 'transform_filled_chitieu.xlsx')
